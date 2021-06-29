@@ -29,7 +29,6 @@ abs path
 
 ![by-nc-sa](/assets/images/by-nc-sa.svg "by-nc-sa liscense")
 
-
 relative path
 
 ![by-nc-sa](../assets/images/by-nc-sa.svg "by-nc-sa liscense")

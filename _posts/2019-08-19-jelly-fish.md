@@ -24,8 +24,18 @@ Grows cloudy, and
 It floats away  
 From you.  
 
+
+abs path
+
+![by-nc-sa](/assets/images/by-nc-sa.svg "by-nc-sa liscense")
+
+
+relative path
+
 ![by-nc-sa](../assets/images/by-nc-sa.svg "by-nc-sa liscense")
 
-aaa
+by url
+
+![by-nc-sa](https://github.com/baliuzeger/blog/blob/master/assets/images/by-nc-sa.svg "by-nc-sa liscense")
 
 [by Marianne Moore](https://poets.org/anthology/poems-your-poetry-project-public-domain)

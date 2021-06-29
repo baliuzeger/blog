@@ -143,7 +143,7 @@ and images can be specified like so:
 
 ![example image](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop "An exemplary image")
 
-![by-nc-sa](https://baliuzeger.github.io/blog/assets/images/by-nc-sa.svg "by-nc-sa liscense")
+![by-nc-sa](https://baliuzeger.github.io/sjl/assets/images/by-nc-sa.svg "by-nc-sa liscense")
 
 Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like so:

@@ -155,10 +155,22 @@ abs path /assets/images no sufix
 
 ![by-nc-sa](/assets/images/by-nc-sa "by-nc-sa liscense")
 
-
 abs path /assets/images
 
 ![by-nc-sa](/assets/images/by-nc-sa.svg "by-nc-sa liscense")
+
+abs path site url #1
+
+![by-nc-sa](https://baliuzeger.github.io/blog/assets/images/by-nc-sa.svg "by-nc-sa liscense")
+
+abs path site url #2
+
+![by-nc-sa]({https://baliuzeger.github.io/blog}/assets/images/by-nc-sa.svg "by-nc-sa liscense")
+
+abs path site url #2
+
+![by-nc-sa]({{https://baliuzeger.github.io/blog}}/assets/images/by-nc-sa.svg "by-nc-sa liscense")
+
 
 abs path /images
 

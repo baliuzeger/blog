@@ -39,4 +39,5 @@ The contents of this blog is authorized by [CC BY-NC-SA 3.0 TW](https://creative
 MIT License
 
 [gradfolio](https://github.com/jitinnair1/gradfolio)
+
 [![JekyllThemes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com)

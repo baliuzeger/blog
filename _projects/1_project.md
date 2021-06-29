@@ -147,9 +147,13 @@ abs path /assets/images
 
 ![by-nc-sa](/assets/images/by-nc-sa.svg "by-nc-sa liscense")
 
-abs path
+abs path /images
 
 ![by-nc-sa](/images/by-nc-sa.svg "by-nc-sa liscense")
+
+abs path /images
+
+![by-nc-sa](/by-nc-sa.svg "by-nc-sa liscense")
 
 
 relative path

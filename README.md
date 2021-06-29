@@ -30,6 +30,11 @@ Once you have personalised and tested the site, you can create a new repo, uploa
 - [jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
 ## License
+### Blog Contents
+The contents of this blog is authorized by [CC BY-NC-SA 3.0 TW](https://creativecommons.org/licenses/by-nc-sa/3.0/tw/). To use the contents of this blog, please mention this blog's url [https://baliuzeger.github.io/blog/](https://baliuzeger.github.io/blog/).
+![by-nc-sa](by-nc-sa.svg "by-nc-sa liscense")
+
+### Gradfolio Theme
 MIT License
 
 [![JekyllThemes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com)

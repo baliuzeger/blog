@@ -147,6 +147,14 @@ abs path /assets/images png
 
 ![by-nc-sa](/assets/images/by-nc-sa.png "by-nc-sa liscense")
 
+abs path /assets/images jpg
+
+![by-nc-sa](/assets/images/by-nc-sa.jpg "by-nc-sa liscense")
+
+abs path /assets/images no sufix
+
+![by-nc-sa](/assets/images/by-nc-sa "by-nc-sa liscense")
+
 
 abs path /assets/images
 

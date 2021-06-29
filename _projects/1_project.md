@@ -143,6 +143,11 @@ and images can be specified like so:
 
 ![example image](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop "An exemplary image")
 
+abs path /assets/images png
+
+![by-nc-sa](/assets/images/by-nc-sa.png "by-nc-sa liscense")
+
+
 abs path /assets/images
 
 ![by-nc-sa](/assets/images/by-nc-sa.svg "by-nc-sa liscense")
@@ -151,7 +156,7 @@ abs path /images
 
 ![by-nc-sa](/images/by-nc-sa.svg "by-nc-sa liscense")
 
-abs path /images
+abs path /
 
 ![by-nc-sa](/by-nc-sa.svg "by-nc-sa liscense")
 

@@ -8,3 +8,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 
 [Lecture 0 Introduction](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_00/)
 
+[Lecture 1 Regression](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_01/)
+

@@ -10,5 +10,6 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 
 [Lecture 1 Regression](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_01/)
 
-[Lecture 2 model selection, sources of error and cross validation](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_02/)
+[Lecture 2 Model selection, sources of error and cross validation](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_02/)
 
+[Lecture 3 Gradient descent](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_03/)

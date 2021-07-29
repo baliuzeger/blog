@@ -17,3 +17,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 4 Classification: Probabilistic Generative Model](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_04/)
 
 [Lecture 5 Classification: Logistic Regression](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_05/)
+
+[Lecture 6 Brief Introduction to Deep Learning](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_06/)

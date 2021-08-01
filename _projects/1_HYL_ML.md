@@ -21,3 +21,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 6 Brief Introduction to Deep Learning](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_06_DL_Intro/)
 
 [Lecture 7 Backpropagation](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_07_Backpropagation/)
+
+[Lecture 9 Tips for Deep Learning](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_09/)

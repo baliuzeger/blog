@@ -8,9 +8,13 @@ Having the same total number of parameters, the deep, i.e. thin and tail, neural
 The concept of modularization here is that, using a deep neural network is actually decmoposing the problem to a hierarchy of functions and sub-functions by the deep layers, and the sub-functions, i.e. the neurons at the layers near the input end, can use almost the whole data set to learn their functions. In contrast, when training a fat and short neural network, most neurons, especially those near the output end, only be trained when they significantly contribute to the outputs, so most neurons are only trained by only a small portion of the training data.
 
 ### The Deep Neural Networks
+It has actually 2 layers.
+
 ![deep classifier](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_11/deep-classifier.png)
 
 ### The Fat Neural Networks
+It has only 1 layer.
+
 ![fat classifier](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_11/fat-classifier.png)
 
 Deep learning can also perform end-to-end learning, i.e. let the deep neural networks learn from the inputs and outpus directly without making a series of processing functions by human design. Actually the trained deep neural networks can automatically resemble the series of processing functions designed by human.

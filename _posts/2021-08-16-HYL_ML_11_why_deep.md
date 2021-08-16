@@ -19,6 +19,8 @@ It has only 1 layer.
 
 Deep learning can also perform end-to-end learning, i.e. let the deep neural networks learn from the inputs and outpus directly without making a series of processing functions by human design. Actually the trained deep neural networks can automatically resemble the series of processing functions designed by human.
 
+![end to end training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_11/end-to-end.png)
+
 By the effect of modularization, the deep neural networks actually use less parameters and need less training data. Therefore, the comment "deep learning simply take advantage of the high number of parameters to realize overfitting, it's just a kind of brute force solution based on computing power and big data" is incorrect, because deep learning actually need less parameters and less data. The comment "deep learning is just neural networks + big data" is partially incorrect. The reason of incorrectness is like above. The correct part is that some tasks are just too complex that they do need big data, *even deep learning is already very efficient for data*.
 
 ## References

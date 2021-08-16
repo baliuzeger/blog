@@ -25,3 +25,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 9 Tips for Deep Learning](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_09_DL_Tips/)
 
 [Lecture 10 CNN](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_10_CNN/)
+
+[Lecture 11 Why Deep?](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_12_why_deep/)

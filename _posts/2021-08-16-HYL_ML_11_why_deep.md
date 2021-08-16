@@ -16,3 +16,8 @@ The concept of modularization here is that, using a deep neural network is actua
 Deep learning can also perform end-to-end learning, i.e. let the deep neural networks learn from the inputs and outpus directly without making a series of processing functions by human design. Actually the trained deep neural networks can automatically resemble the series of processing functions designed by human.
 
 By the effect of modularization, the deep neural networks actually use less parameters and need less training data. Therefore, the comment "deep learning simply take advantage of the high number of parameters to realize overfitting, it's just a kind of brute force solution based on computing power and big data" is incorrect, because deep learning actually need less parameters and less data. The comment "deep learning is just neural networks + big data" is partially incorrect. The reason of incorrectness is like above. The correct part is that some tasks are just too complex that they do need big data, *even deep learning is already very efficient for data*.
+
+## References
+[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+
+[Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

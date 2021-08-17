@@ -103,7 +103,7 @@ for such examples, we can perform **feature transformation** 1st and then use lo
 
 ![feature transformation](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_05/feature-transform.png)
 
-however, it's not always easy for us to find how to perform the feature transformation effectively. If we choose the model model as cascaded llgistic regreesion and let train the model, we are actually using the **neural networks**.
+however, it's not always easy for us to find how to perform the feature transformation effectively. If we choose the cascaded logistic regression as the model and train it, we are actually using the **neural network**.
 
 ## References
 [Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)

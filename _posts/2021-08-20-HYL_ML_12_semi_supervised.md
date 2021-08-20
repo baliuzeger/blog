@@ -11,4 +11,16 @@ While in some scenarios, collecting data is easy but collecting *labelled* data 
 
 $$\{(x^r, \hat{y}^r)\}^{R}_{r=1}, \{ x^u \}^{R+U}_{u=R+1}$$
 
-Further more, transductive learning is the case that unlabeled data is the testing data, i.e. trying to be sepcific on the problem / task, and inductive learning unlabeled data is not the testing data, i.e. trying to be be general.
+Further more, **transductive learning** is the case that unlabeled data is the testing data, i.e. trying to be sepcific on the problem / task, and **inductive learning** unlabeled data is not the testing data, i.e. trying to be be general.
+
+## Semi-Supervised Generative Model
+
+### Steps
+
+Consider a binary classifgication,
+
+**Step 0**
+
+Initialze the model $\theta = \{  P(C_1), P(C_2), \mu^1, \mu^2, \Sigma \}$ by the labelled data as in supervised learning.
+
+

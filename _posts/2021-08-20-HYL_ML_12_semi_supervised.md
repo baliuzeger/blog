@@ -89,6 +89,16 @@ Self-training is useless on regression because there will be no error by the $(x
 
 ### Entropy-Based Regularization
 
+(My argement) By low density separation approximation, most examples should belong to a class with high probability and to other classes with low probality, so the entropy should be low for a successful classifier.
+
+By entropy-based regularization, we minimize the loss function
+
+$$L = \sum_{x^r} C(x^r, \hat{y}^r) + \lambda \sum_{x^u}E(y^u) $$
+
+where $C$ is cross entropy and the entropy of the predictions on the unlabelled data
+
+$$ E(y^u) = - \sum_{m = \text{all classes}}y^u_m ln(y^u_m) $$
+
 ### Semi-Supervised SVM
 
 ![semi-supervised SVM](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/semi-SVM.png)

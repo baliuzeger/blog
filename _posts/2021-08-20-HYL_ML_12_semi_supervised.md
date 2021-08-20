@@ -97,7 +97,7 @@ By entropy-based regularization, we minimize the loss function
 
 $$L = \sum_{x^r} C(x^r, \hat{y}^r) + \lambda \sum_{x^u}E(y^u) $$
 
-where $C$ is cross entropy and the entropy of the predictions on the unlabelled data
+where $C$ is cross entropy and $E$ is the entropy of the predictions on the unlabelled data
 
 $$ E(y^u) = - \sum_{m = \text{all classes}}y^u_m ln(y^u_m) $$
 
@@ -115,7 +115,7 @@ $$ E(y^u) = - \sum_{m = \text{all classes}}y^u_m ln(y^u_m) $$
 
 We assume similar $x$ has the same $\hat{y}$. To be precise, we assume:
  - $x$ is not uniform.
- - If $x^1$ and $x^2$ are close in a high density region, $\hat{y^1}$ and $\hat{y^2}$ are the same, i.e. $x^1$ and $x^2$ are connected by a high density path.
+ - If $x^1$ and $x^2$ are close in a high density region, $\hat{y}^1$ and $\hat{y}^2$ are the same, i.e. $x^1$ and $x^2$ are connected by a high density path.
 
 <p align="center">
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/smoothness.png" alt="smoothness" style="width:400px;"/>
@@ -125,7 +125,7 @@ We assume similar $x$ has the same $\hat{y}$. To be precise, we assume:
 
 ### Cluster and Label
 
-Make clustering first and then use all the data to learn a classifier as usual.
+Make clustering first and then use all the data to learn a classifier as usual. In many cases, we has to use deep auto-encoder first to extract the feature to have good results.
 
 ### Graph-Based Approach
 

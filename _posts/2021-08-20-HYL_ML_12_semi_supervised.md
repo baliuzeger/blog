@@ -60,6 +60,16 @@ We assume that at the boundary of classes, the density of examples are relativel
 
 ### Self-Training
 
+Using the labelled data to train the model first, and then apply the model to the unlabelled data to get more labelled data for further iterative training.
+
+(My argument) By the low density assumption, the boundary between classes make by the model trained by the labelled data should at least cross some of the low density region, so the model should at least correctly classify some unlabelled data. By choosing the correctly classified unbelled data with some criteria and add them into to labelled data and repeat such processes, we should be able to gradually enparge the labelled data set and improve the performance of the model.
+
+#### Steps
+
+
+
+#### Discussions
+
 self-training is useless on regression!!
 NN self-training must use hard label!!
 

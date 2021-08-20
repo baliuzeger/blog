@@ -41,4 +41,10 @@ and then repeat from step 1 until $\theta$ converges. $N_{tot}$ is the total num
 
 ### Explanation
 
+We are finding the maximum likelihood with labelled data and unlabelled data
 
+$$ lnL(\theta) = \sum_{x^r} ln P_{\theta}(x^r, \hat{y}^r) + \sum_{x^u} lnP_{\theta}(x^u) $$
+
+while it's non-convex, so we perform a **EM algorithm** to solve it iteratively, where
+
+$$ P_{\theta}(x^u) = P_{\theta}(x^u \vert C_1)P(C_1) + P_{\theta}(x^u \vert C_2)P(C_2) $$

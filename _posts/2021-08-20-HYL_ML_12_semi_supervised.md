@@ -151,10 +151,27 @@ We can use the methods like K Nearest Neighbor or e-Neighborhood.
 
 **Step 3: Calculate weights on the edges.**
 
-Edge weight is proportional to $s(x^i, x^j)$.
+Edge weight $w$ is proportional to $s(x^i, x^j)$.
+
 **Step 4: Minimize the loss function with the regularization based on smoothmess.**
 
+$$L = \sum_{x^r} C(x^r, \hat{y}^r) + \lambda S $$
+
+where S is the total smoothness.
+
 #### Step 4 for Binary Classification
+
+$$S = \frac{1}{2} \sum_{i \neq j} w_{i,j} (y^i - y^j)^2 = y^T L y$$
+
+where $y^i$ is between 0 & 1, and 0 & 1 represent the the 2 classes respectively. $y$ is a $R+U$-dim vector
+
+$$y = \begin{bmatrix}
+\vdots \\
+w_i \\
+\vdots \\
+w_j \\
+\vdots \\
+ \end{bmatrix}$$
 
 #### Step 4 for More Classes
 

@@ -58,6 +58,8 @@ here the labels we make on the originally unlabelled data are **soft labels**, i
 
 We assume that at the boundary of classes, the density of examples are relatively low.
 
+![low density assumption](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/low-density.png)
+
 ### Self-Training
 
 Using the labelled data to train the model first, and then apply the model to the unlabelled data to get more labelled data for further iterative training.
@@ -99,11 +101,22 @@ where $C$ is cross entropy and the entropy of the predictions on the unlabelled 
 
 $$ E(y^u) = - \sum_{m = \text{all classes}}y^u_m ln(y^u_m) $$
 
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/entropy.png" alt="entropy based" style="width:500px;"/>
+</p>
+
 ### Semi-Supervised SVM
 
 ![semi-supervised SVM](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/semi-SVM.png)
 
 ## Smoothness Assumption
+
+近朱者赤，近墨者黑。"You are known by the company you keep."
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/smoothness.png" alt="smoothness" style="width:400px;"/>
+</p>
+
 
 ### Cluster and Label
 

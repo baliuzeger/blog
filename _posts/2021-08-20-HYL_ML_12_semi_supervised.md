@@ -21,10 +21,16 @@ Consider a binary classifgication,
 
 **Step 0**
 
-Initialze the model $\theta = \{  P(C_1), P(C_2), \mu^1, \mu^2, \Sigma \} $ by the labelled data as in supervised learning.
+Initialze the model by the labelled data as in supervised learning:
+
+$$\theta = \{  P(C_1), P(C_2), \mu^1, \mu^2, \Sigma \} $$
 
 **Step 1**
 
 Compute the posterior probability of all the unlabeled data $P_{\theta}(C_1 \vert x^u)$ by the calculated $\theta$.
 
-****
+**Step 2**
+
+Update the model $\theta$ by
+
+$$P(c_1) = \frac{N_1 + }{N_{tot}}$$

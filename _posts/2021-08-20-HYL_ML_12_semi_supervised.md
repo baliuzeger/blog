@@ -125,7 +125,15 @@ We assume similar $x$ has the same $\hat{y}$. To be precise, we assume:
 
 ### Cluster and Label
 
+Make clustering first and then use all the data to learn a classifier as usual.
+
 ### Graph-Based Approach
+
+Represent the data points as a graph to know the closeness / similarity between the data points so that we can define the high density regions and find the points connected by a high density path.
+
+Graph representation is nature sometimes, e.g. Hyperlink of webpages, citation of papers. Sometimes you have to construct the graph yourself.
+
+
 
 ## Better Representation
 

@@ -121,6 +121,8 @@ We assume similar $x$ has the same $\hat{y}$. To be precise, we assume:
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/smoothness.png" alt="smoothness" style="width:400px;"/>
 </p>
 
+![stepping stone](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/stepping-stons.png)
+
 ### Cluster and Label
 
 ### Graph-Based Approach

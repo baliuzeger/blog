@@ -75,7 +75,7 @@ $$\Sigma = \frac{N_1}{ \frac{N_1}{N_{tot}} \Sigma^1 + \frac{N_2}{N_{tot}} \Sigma
 
 Definition of **posterior probability**: the probability of the parameters $\theta$ given the evidence $X$, $p(\theta \vert X)$; the probability of the class $C$ given the example $x$, $p(C \vert x)$.
 
-to calculate the posterior probability, let
+To calculate the posterior probability, let
 
 $$ P(C_1 \vert x) = \frac{P(x \vert C_1)P(C_1)}{P(x \vert C_1)P(C_1) + P(x \vert C_2)P(C_2)} \\
 = \frac{1}{1 + e^{-z}} = \sigma(z)$$

@@ -113,10 +113,13 @@ $$ E(y^u) = - \sum_{m = \text{all classes}}y^u_m ln(y^u_m) $$
 
 近朱者赤，近墨者黑。"You are known by the company you keep."
 
+We assume similar $x$ has the same $\hat{y}$. To be precise, we assume:
+ - $x$ is not uniform.
+ - If $x^1$ and $x^2$ are close in a high density region, $\hat{y^1}$ and $\hat{y^2}$ are the same, i.e. $x^1$ and $x^2$ are connected by a high density path.
+
 <p align="center">
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/smoothness.png" alt="smoothness" style="width:400px;"/>
 </p>
-
 
 ### Cluster and Label
 

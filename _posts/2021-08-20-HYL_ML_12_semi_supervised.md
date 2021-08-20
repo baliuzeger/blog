@@ -66,7 +66,15 @@ Using the labelled data to train the model first, and then apply the model to th
 
 #### Steps
 
+Given labelled data set
 
+$$\{(x^r, \hat{y}^r)\}^{R}_{r=1}$$
+
+and unlabelled data set
+
+$$ \{ x^u \}^{R+U}_{u=R+1} $$
+
+1. 
 
 #### Discussions
 

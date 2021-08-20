@@ -183,8 +183,13 @@ w_j \\
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/ex-matrix.png" alt="example matrix" style="width:450px;"/>
 </p>
 
-
 #### Step 4 for More Classes
+
+(My derivation)
+
+$$S = \sum_{i \neq j}(1 - y^i y^j) w_{ij} $$
+
+where $y^i$ is the probability distribution to all the classes of example $i$. The inner product is the total probability that example $i$ and $j$ are in the same classes, so the whole term is the weight times the probability that $i$ and $j$ are not in the same class.
 
 ## Better Representation
 

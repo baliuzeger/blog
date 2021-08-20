@@ -48,3 +48,5 @@ $$ lnL(\theta) = \sum_{x^r} ln P_{\theta}(x^r, \hat{y}^r) + \sum_{x^u} lnP_{\the
 while it's non-convex, so we perform a **EM algorithm** to solve it iteratively, where
 
 $$ P_{\theta}(x^u) = P_{\theta}(x^u \vert C_1)P(C_1) + P_{\theta}(x^u \vert C_2)P(C_2) $$
+
+here the labels we make on the originally unlabelled data are **soft labels**, i.e. an example belong to the classes by probability.

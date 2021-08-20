@@ -33,4 +33,6 @@ Compute the posterior probability of all the unlabeled data $P_{\theta}(C_1 \ver
 
 Update the model $\theta$ by
 
-$$P(c_1) = \frac{N_1 + }{N_{tot}}$$
+$$P(C_1) = \frac{N_1 + \sum_{x^u} P(C_1 \vert x^u)}{N_{tot}}$$
+
+$$\mu^1 = \frac{1}{N_1} \sum_{x^r \in C_1} x^r + \frac{1}{ \sum_{x^u}P(C_1 \vert x^u) } \sum_{x^u}P(C_1 \vert x^u) \dots$$

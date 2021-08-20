@@ -171,9 +171,9 @@ where $y^i$ is between 0 & 1, and 0 & 1 represent the the 2 classes respectively
 
 $$y = \begin{bmatrix}
 \vdots \\
-w_i \\
+y_i \\
 \vdots \\
-w_j \\
+y_j \\
 \vdots \\
  \end{bmatrix}$$
  

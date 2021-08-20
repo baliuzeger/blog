@@ -173,7 +173,16 @@ w_j \\
 \vdots \\
  \end{bmatrix}$$
  
- and $L$ is the **graph laplacian**, $L = D - W$. $W$ is the matrix of the off-diagonal $w_{i,j}$, $D$ is the sum of the off-diagonal elements at the same row.
+ and $L$ is the $(R+U)^2$ dimension matrix **graph laplacian**, $L = D - W$. $W$ is the matrix of the off-diagonal $w_{i,j}$, $D$ is the sum of the off-diagonal elements at the same row.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/ex-graph.png" alt="example graph" style="width:350px;"/>
+</p>
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/ex-matrix.png" alt="example matrix" style="width:450px;"/>
+</p>
+
 
 #### Step 4 for More Classes
 

@@ -36,3 +36,9 @@ Update the model $\theta$ by
 $$P(C_1) = \frac{N_1 + \sum_{x^u} P(C_1 \vert x^u)}{N_{tot}}$$
 
 $$\mu^1 = \frac{1}{N_1} \sum_{x^r \in C_1} x^r + \frac{1}{ \sum_{x^u}P(C_1 \vert x^u) } \sum_{x^u}P(C_1 \vert x^u) \dots$$
+
+and then repeat from step 1 until $\theta$ converges. $N_{tot}$ is the total number of examples, $N_1$ is the number of examples belonging to $C1$.
+
+### Explanation
+
+

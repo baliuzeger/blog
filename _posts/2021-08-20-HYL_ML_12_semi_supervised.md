@@ -13,7 +13,7 @@ $$\{(x^r, \hat{y}^r)\}^{R}_{r=1}, \{ x^u \}^{R+U}_{u=R+1}$$
 
 Further more, **transductive learning** is the case that unlabeled data is the testing data, i.e. trying to be sepcific on the problem / task, and **inductive learning** unlabeled data is not the testing data, i.e. trying to be be general.
 
-## Semi-Supervised Generative Model
+## Semi-Supervised Learning for Generative Models
 
 ### Steps
 
@@ -50,3 +50,34 @@ while it's non-convex, so we perform a **EM algorithm** to solve it iteratively,
 $$ P_{\theta}(x^u) = P_{\theta}(x^u \vert C_1)P(C_1) + P_{\theta}(x^u \vert C_2)P(C_2) $$
 
 here the labels we make on the originally unlabelled data are **soft labels**, i.e. an example belong to the classes by probability.
+
+
+## Low Density Seperation Assumption
+
+非黑即白。"It's either black or white."
+
+We assume that at the boundary of classes, the density of examples are relatively low.
+
+### Self-Training
+
+self-training is useless on regression!!
+NN self-training must use hard label!!
+
+
+### Entropy-Based Regularization
+
+### Semi-Supervised SVM
+
+![semi-supervised SVM](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/semi-SVM.png)
+
+## Smoothness Assumption
+
+### Cluster and Label
+
+### Graph-Based Approach
+
+## Better Representation
+
+去蕪存菁，化繁為簡。
+
+Find the latent factors behind the observation, where the latent factors (usually simpler) are better representations.

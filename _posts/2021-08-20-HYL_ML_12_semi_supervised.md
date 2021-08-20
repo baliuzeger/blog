@@ -197,6 +197,15 @@ where $y^i$ is a vector of the probability distribution to all the classes of ex
 
 Find the latent factors behind the observation, where the latent factors (usually simpler) are better representations.
 
-## More
+## My Discussion on Using the Methods simultaneously
 
-how about perform entropy-based Regularization & graph-based simultaneously?
+How about perform self learning, entropy-based regularization and graph-based smoothness simultaneously?
+
+It should be nonsense to use self learning and the others simultaneously because in self learning, we're gradually include the unlabelled data into the labelled data. After that, there are no unlabelled data any more.
+
+It should be ok to use entropy-based regularization and graph-based smoothness simultaneously. Entropy-based regularization tend to let all the unlabelled data get clear-cut rather than ambiguous classification, so it's about the outputs from each unlabelled example itself and there are not direct mutual effect between examples. On the other hand, the smoothness approach handles the mutual effect between examples. The effect of entrophy-based regularization and smoothness approach are kind of indenpendent of each other, so it should be ok to use them simultaneously.
+
+## References
+[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+
+[Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

@@ -78,7 +78,7 @@ $$ \{ x^u \}^{R+U}_{u=R+1} $$
 
 Repeat the following steps:
 1. Train model $f^*$ from labelled data set.
-2. Apply $f^*$ to the unlabelled data set to get **pseudo label**.
+2. Apply $f^*$ to the unlabelled data set to get **pseudo labels**.
 3. Remove a set of data from unlabeled data set, and add them into the labeled data set.
 
 In step 3, how to choose the data set remains open. You can also provide a weight to each data.
@@ -114,3 +114,7 @@ $$ E(y^u) = - \sum_{m = \text{all classes}}y^u_m ln(y^u_m) $$
 去蕪存菁，化繁為簡。
 
 Find the latent factors behind the observation, where the latent factors (usually simpler) are better representations.
+
+## More
+
+how about perform entropy-based Regularization & graph-based simultaneously?

@@ -141,6 +141,8 @@ Define the similarity $s(x^i, x^j)$. For example, the Gaussian Radial Basis Func
 
 $$s(x^i, x^j) = exp(- \gamma \vert \vert x^i - x^j \vert \vert ^2)$$
 
+is good for its fast decay.
+
 **Step 2: Add edges.**
 
 We can use the methods like K Nearest Neighbor or e-Neighborhood.
@@ -148,6 +150,8 @@ We can use the methods like K Nearest Neighbor or e-Neighborhood.
 <p align="center">
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/add-edge.png" alt="add edge" style="width:450px;"/>
 </p>
+
+In this step, we need enough data points, or the graph may just break.
 
 **Step 3: Calculate weights on the edges.**
 

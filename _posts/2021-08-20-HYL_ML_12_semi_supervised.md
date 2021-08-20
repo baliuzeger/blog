@@ -139,7 +139,7 @@ Graph representation is nature sometimes, e.g. Hyperlink of webpages, citation o
 
 Define the similarity $s(x^i, x^j)$. For example, the Gaussian Radial Basis Function
 
-$$s(x^i, x^j) = e^(- \gamma \vert \vert x^i - x^j \vert \vert ^2)$$
+$$s(x^i, x^j) = exp(- \gamma \vert \vert x^i - x^j \vert \vert ^2)$$
 
 **Step 2: Add edges.**
 
@@ -172,6 +172,8 @@ w_i \\
 w_j \\
 \vdots \\
  \end{bmatrix}$$
+ 
+ and $L$ is the **graph laplacian**, $L = D - W$. $W$ is the matrix of the off-diagonal $w_{i,j}$, $D$ is the sum of the off-diagonal elements at the same row.
 
 #### Step 4 for More Classes
 

@@ -189,7 +189,7 @@ w_j \\
 
 $$S = \sum_{i \neq j}(1 - y^i \cdot y^j) w_{ij} $$
 
-where $y^i$ is a vector of the probability distribution to all the classes of example $i$. The inner product is the total probability that example $i$ and $j$ are in the same class, so the whole term is the weight times the probability that $i$ and $j$ are not in the same class.
+where $y^i$ is a vector of the probability distribution, i.e. softmax output, to all the classes of example $i$. The inner product is the total probability that example $i$ and $j$ are in the same class, so the whole term is the weight times the probability that $i$ and $j$ are not in the same class.
 
 ## Better Representation
 

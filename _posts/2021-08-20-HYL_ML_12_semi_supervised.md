@@ -131,9 +131,32 @@ Make clustering first and then use all the data to learn a classifier as usual.
 
 Represent the data points as a graph to know the closeness / similarity between the data points so that we can define the high density regions and find the points connected by a high density path.
 
-Graph representation is nature sometimes, e.g. Hyperlink of webpages, citation of papers. Sometimes you have to construct the graph yourself.
+Graph representation is nature sometimes, e.g. Hyperlink of webpages, citation of papers. Sometimes we have to construct the graph ourselves.
 
+#### Steps
 
+**Step 1: Define the similarity.**
+
+Define the similarity $s(x^i, x^j)$. For example, the Gaussian Radial Basis Function
+
+$$s(x^i, x^j) = e^(- \gamma \vert \vert x^i - x^j \vert \vert ^2)$$
+
+**Step 2: Add edges.**
+
+We can use the methods like K Nearest Neighbor or e-Neighborhood.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_12/add-edge.png" alt="add edge" style="width:450px;"/>
+</p>
+
+**Step 3: Calculate weights on the edges.**
+
+Edge weight is proportional to $s(x^i, x^j)$.
+**Step 4: Minimize the loss function with the regularization based on smoothmess.**
+
+#### Step 4 for Binary Classification
+
+#### Step 4 for More Classes
 
 ## Better Representation
 

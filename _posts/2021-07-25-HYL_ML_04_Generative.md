@@ -41,7 +41,7 @@ where $N_i$ is the total count of examples of class $C_i$.
 
 For $P(x \vert C_i)$, let's assume Gaussian distribution
 
-$$f_{\mu , \Sigma}(x) = \frac{1}{(2 \pi)^{\frac{D}{2}} \vert \Sigma \vert^{\frac{1}{s}}} e^{- \frac{1}{2}(x - \mu)^T \Sigma^{-1} (x - \mu)}$$
+$$f_{\mu , \Sigma}(x) = \frac{1}{(2 \pi)^{\frac{D}{2}} \vert \Sigma \vert^{\frac{1}{2}}} e^{- \frac{1}{2}(x - \mu)^T \Sigma^{-1} (x - \mu)}$$
 
 where $\mu$ is **mean** and $\Sigma$ is **covariance matrix**.
 

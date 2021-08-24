@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes for Prof. Hung-Yi Lee's ML Lecture 13: Supervised Learning- Linear Methods"
+title: "Notes for Prof. Hung-Yi Lee's ML Lecture 13: Unsupervised Learning- Linear Methods"
 ---
 
 # Unsupervised Learning

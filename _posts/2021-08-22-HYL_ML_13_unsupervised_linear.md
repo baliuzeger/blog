@@ -3,13 +3,9 @@ layout: post
 title: "Notes for Prof. Hung-Yi Lee's ML Lecture 13: Supervised Learning- Linear Methods"
 ---
 
-## Unsupervised Learning
+# Unsupervised Learning
 
-only 1 end of function (input or output)
-
-Clustering: only input 化繁為簡
-
-Generation: Only ouput 無中生有
+Unsupervised learning are the scenarios that we only have either input or output for the function. Examples for the former （化繁為簡） are dimension reduction and clustering, while an example for the later （無中生有） is generation.
 
 ## Clustering
 

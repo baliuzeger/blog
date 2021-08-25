@@ -130,14 +130,13 @@ $$ \{ u^1, u^2, \dots, u^k \} $$
 
 that minimize the reconstruction error.
 
-Also, 
+Also, we can also see PCA as a neural network with 1 hidden layer and linear activation function, and also an **autoencoder**, which minimize the reconstruction error
 
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/autoencoder-1hidden.png" alt="1 hidden layer autoencoder" style="width:600px;"/>
+</p>
 
-(looks like neural network with 1 hidden layer)
-
-
-
-gradient gets different w's due to not orthogonal
+Since it's a neural network, we can we gradient descent to find the $w$s. Howeverm the $w$s may be different from the ones we get from PCA because the $w$s are not constrained to be orthonormal like in PCA.
 
 #### Discussion
 

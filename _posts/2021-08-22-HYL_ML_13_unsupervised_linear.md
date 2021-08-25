@@ -120,7 +120,17 @@ and the reconstruction error
 
 $$ \vert \vert ((x - \overline{x}) - \hat{x}) \vert \vert_2$$
 
-and by **singiular value decomposition**, the k eigen vector with the largest eigen value of the covariance matrix $Cov(x)$ is the solution, i.e. the $ \{ w^1, w^2, \dots, w^k \}$ from PCA is the set of component of $ \{ u^1, u^2, \dots, u^k \} $ that minimize the reconstruction error.
+and by **singiular value decomposition**, the k eigen vector with the largest eigen value of the covariance matrix $Cov(x)$ is the solution, i.e. from PCA, the set of vectors
+
+$$ \{ w^1, w^2, \dots, w^k \}$$
+
+is the set of component of
+
+$$ \{ u^1, u^2, \dots, u^k \} $$
+
+that minimize the reconstruction error.
+
+Also, 
 
 
 (looks like neural network with 1 hidden layer)

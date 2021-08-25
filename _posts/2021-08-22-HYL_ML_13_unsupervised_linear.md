@@ -138,6 +138,8 @@ Also, we can also see PCA as a neural network with 1 hidden layer and linear act
 
 Since it's a neural network, we can we gradient descent to find the $w$s. Howeverm the $w$s may be different from the ones we get from PCA because the $w$s are not constrained to be orthonormal like in PCA.
 
+Also, it becomes **deep autoencoder** if we let it be deep.
+
 #### Discussion
 
 PCA keeps the distances from high to low dimensional space. (My comment: not really. there are kernal in the linear transformation, so some distances may just disappear by the transformation. Although if the distance between points A and B is larger than the distance between points C and D, after the transformation, the former is still not smaller than the later.)
@@ -163,7 +165,6 @@ Also, when examing the selected components of image data, we may see that the co
 <p align="center">
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/MNIST-NMF.png" alt="MNIST NMF eigen digit" style="width:700px;"/>
 </p>
-
 
 ### Matrix Factorization
 

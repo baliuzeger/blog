@@ -154,8 +154,16 @@ Also, since PCA is linear, it cannot provide good results when the distribution 
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/unlinear-projection.png" alt="PCA to nonlinear" style="width:300px;"/>
 </p>
 
+Also, when examing the selected components of image data, we may see that the components don't look like elements of the drawing. The reason is that the components $w$s and the projections $z$s can have negative values. To get component that looks like elements of the drawing, we can use **non-negative matrix factorization**, for example.
 
-why PCA w's 不像圖案的組成要素 / non-negative matrix factorization
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/MNIST-PCA.png" alt="MNIST PCA eigen digits" style="width:300px;"/>
+</p>
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/MNIST-NMF.png" alt="MNIST NMF eigen digit" style="width:300px;"/>
+</p>
+
 
 ### Matrix Factorization
 

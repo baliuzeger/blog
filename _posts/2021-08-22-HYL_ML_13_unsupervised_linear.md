@@ -102,7 +102,13 @@ $w^1$ to $w^n$ are the **eigen vectors** of the covariance matrix $Cov(x)$, with
 
 $$Cov(x) = \frac{1}{N} \sum (x - \overline{x})(x - \overline{x})^T$$
 
-decorrelation?
+**Discussion**
+
+After transformation by $W$, the covariance matrix $Cov(z)$ is a diagonal matrix, i.e. the transformation has a decorrelation effect on the data points.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/pca-decorrelation.png" alt="pca decorrelation" style="width:450px;"/>
+</p>
 
 #### minimize reproduction error (looks like neural network with 1 hidden layer)
 

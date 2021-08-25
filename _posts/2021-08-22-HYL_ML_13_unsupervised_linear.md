@@ -33,7 +33,7 @@ A: It's possible, intuitively. However, since we just don't really know how many
 
 ### More of My Discussions to Clustering
 
-Aren't there any clustering methods based on low-density assumption or smoothness assumption?
+Aren't there any clustering methods based on low density separation assumption or smoothness assumption? Unsupervised SVM for the former? DBSCAN for the later?
 
 ## Distributed Representaion / Dimension Reduction
 

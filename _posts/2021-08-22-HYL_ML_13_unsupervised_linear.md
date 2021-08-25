@@ -67,9 +67,13 @@ Manually choose the dimensions of features that emphasizes the differences betwe
 
 By PCA, we project all the data points $x$ onto $W$ to get a set of $z$ of lower dimensions, while we want to find the $W$ to let the variance of $z$ be as large as possible.
 
-![k-means steps](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/pca-variance.png)
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/pca-variance.png" alt="pca variance" style="width:450px;"/>
+</p>
 
-So we have
+**Definitions**
+
+We have
 
 $$z = Wx$$
 
@@ -88,7 +92,15 @@ $$z_n = w^n \cdot x$$
 
 $$w^n = arg \max \limits_{w^n} Var(z_n)$$
 
-$$Var(z_n) = \frac{1}{N}\sum_{z^n}(z_n - \overline{z}_n)^2$$
+$$Var(z_n) = \frac{1}{N}\sum_{z_n}(z_n - \overline{z}_n)^2$$
+
+where $Var(z_1)$ is the largest, and then $Var(z_2)$ then to $Var(z_n)$, repectively.
+
+**Solution**
+
+$w^1$ to $w^n$ are the **eigen vectors** of the covariance matrix $Cov(x)$, with eigen value from the largest to nth largest, where
+
+$$Cov(x) = \frac{1}{N} \sum (x - \overline{x})(x - \overline{x})^T$$
 
 #### minimize reproduction error (looks like neural network with 1 hidden layer)
 

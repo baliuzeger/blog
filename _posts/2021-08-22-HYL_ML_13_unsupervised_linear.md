@@ -29,6 +29,17 @@ A: It's possible, intuitively. However, since we just don't really know how many
 
 ### Hierarchical Agglomerative Clustering
 
+**Step 1: build a tree**
+
+Find the closest 2 examples in the data set, make them a cluster, and then use their mean to represent this culser as a new data point. Repeat such process until getting the root, i.e. make the whole data set as a tree.
+
+**Step 2: pick a threshold**
+
+Choosw a level in the tree and separate the tree into clusters by that level.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/HAC.png" alt="HAC" style="width:500px;"/>
+</p>
 
 
 ### More of My Discussions to Clustering

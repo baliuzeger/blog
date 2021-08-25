@@ -148,12 +148,12 @@ Weakness of PCA: PCA is unsupervised and doesn't consider the labels, so in some
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/PCA-LDA.png" alt="PCA vs LDA" style="width:450px;"/>
 </p>
 
+Also, since PCA is linear, it cannot provide good results when the distribution of data is highly nonlinear.
 
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/unlinear-projection.png" alt="PCA to nonlinear" style="width:300px;"/>
+</p>
 
-
-weakness: unsupervised
-
-Linear Discriminant Analysis: 考慮 label 的降維
 
 why PCA w's 不像圖案的組成要素 / non-negative matrix factorization
 

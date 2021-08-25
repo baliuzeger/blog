@@ -168,23 +168,33 @@ Also, when examing the selected components of image data, we may see that the co
 
 ### Matrix Factorization
 
-#### SVD to minimize recostruction error
+We assume that every variable and every target can be described by a latent vactor of n dimentions, and then we use the data to solve the latent vactors for all the variables and target. Such technique can be applied for recommendation system. For example, the data of variables (otakus) and targets (characters)
 
-#### gradient descent
+![matrix-factorization-data](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/matrix-factorization-data.png)
 
-(can handle missing value)
+and the latent vectors
 
-加上 bias
+![matrix-factorization-pairs](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/matrix-factorization-pairs.png)
 
-#### More
+#### Using SVD to Minimize the Recostruction Error
 
-[Netflix](https://dl.acm.org/doi/10.1145/2843948)
+![matrix-factgorization-svd](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/matrix-factgorization-svd.png)
+
+#### Using Gradient Descent to Minimize the Recostruction Error
+
+In some cases, the data may be missing for some pairs of variables and targets. We can use gradient descent to find minimize the reconstruction error and find the latent vectors. Moreover, by using gradient descent, we can even add biases for all the latent vectors.
+
+![matrix-factorization-gd](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/matrix-factorization-gd.png)
 
 ### More Approaches
 
+[Netflix Recommendation System](https://dl.acm.org/doi/10.1145/2843948)
 
+CCA can be used for the cases with multiple data sources, e.g. having both voice data and image data of mouth shapes for speech related tasks.
 
+ICA can be used for source separation; just find independent but not orthogonal vectors.
 
+![more reference](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/more-unsupervised.png)
 
 ## References
 
@@ -192,7 +202,9 @@ More about PCA: Bishop Chap.12
 
 Proof of minimizing reconstruction error = mazimize z varriance, see Bishop 12.1.2
 
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Singular Value Decomposion](http://speech.ee.ntu.edu.tw/~tlkagk/courses/LA_2016/Lecture/SVD.pdf)
+
+[Youtube Link](https://www.youtube.com/watch?v=iwh5o_M4BNU&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=23)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
 

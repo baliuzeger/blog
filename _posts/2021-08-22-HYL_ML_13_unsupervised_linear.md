@@ -118,7 +118,7 @@ $$x - \overline{x} \approx c_1 u^1 + c_2 u^2 + \dots + c_k u^k = \hat{x}$$
 
 and the reconstruction error
 
-$$ \vert \vert ((x - \overline{x}) - \hat{x}) \vert \vert_2$$
+$$ \vert \vert (x - \overline{x}) - \hat{x} \vert \vert_2$$
 
 and by **singiular value decomposition**, the k eigen vector with the largest eigen value of the covariance matrix $Cov(x)$ is the solution, i.e. from PCA, the set of vectors
 
@@ -140,7 +140,16 @@ Since it's a neural network, we can we gradient descent to find the $w$s. Howeve
 
 #### Discussion
 
-keep the distanvces from high to low dimensional space
+PCA keeps the distances from high to low dimensional space. (My comment: not really. there are kernal in the linear transformation, so some distances may just disappear by the transformation. Although if the distance between points A and B is larger than the distance between points C and D, after the transformation, the former is still not smaller than the later.)
+
+Weakness of PCA: PCA is unsupervised and doesn't consider the labels, so in some cases, it cannot find the proper direction of projection to separate the data points. The **linear discriminant analysis**, a dimension reduction that considers the labels, for example, can perform better for such scenario.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/PCA-LDA.png" alt="PCA vs LDA" style="width:450px;"/>
+</p>
+
+
+
 
 weakness: unsupervised
 

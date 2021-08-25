@@ -65,6 +65,31 @@ Manually choose the dimensions of features that emphasizes the differences betwe
 
 #### miximize variance after projection
 
+By PCA, we project all the data points $x$ onto $W$ to get a set of $z$ of lower dimensions, while we want to find the $W$ to let the variance of $z$ be as large as possible.
+
+![k-means steps](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/pca-variance.png)
+
+So we have
+
+$$z = Wx$$
+
+where
+
+$$W = \begin{bmatrix}
+(w^1)^T \\
+(w^2)^T \\
+\vdots \\
+(w^n)^T \\
+\end{bmatrix}$$
+
+and
+
+$$z_n = w^n \cdot x$$
+
+$$w^n = arg \max \limits_{w^n} Var(z_n)$$
+
+$$Var(z_n) = \frac{1}{N}\sum_{z^n}(z_n - \overline{z}_n)^2$$
+
 #### minimize reproduction error (looks like neural network with 1 hidden layer)
 
 gradient gets different w's due to not orthogonal
@@ -100,6 +125,9 @@ why PCA w's 不像圖案的組成要素 / non-negative matrix factorization
 
 
 ## References
+
+More about PCA: Bishop Chap.12
+
 [Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

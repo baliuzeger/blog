@@ -19,7 +19,21 @@ Steps:
 
 ![k-means steps](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/k-means.png)
 
+When initializing the centers of the clusters, we randomly choose from the data set to avoid the segmentation fault that some clusters have no data points.
+
+#### My discussion
+
+Q: How about that some of the randomly chosen data points in initialization should actually belong to the same cluster?
+
+A: It's possible, intuitively. However, since we just don't really know how many clusters should the data set be separated into, so possibly the better approach is to set the number $K$ slightly higher in the beginning and then we can manually merge the clusters later if we see some clusters are close to each other.
+
 ### Hierarchical Agglomerative Clustering
+
+
+
+### More of My Discussions to Clustering
+
+Aren't there any clustering methods based on low-density assumption or smoothness assumption?
 
 ## Distributed Representaion / Dimension Reduction
 

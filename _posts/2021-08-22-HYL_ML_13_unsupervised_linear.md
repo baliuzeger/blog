@@ -63,7 +63,7 @@ Manually choose the dimensions of features that emphasizes the differences betwe
 
 ### Principal Component Analysis
 
-#### miximize variance after projection
+#### Miximizing Variance after Projection
 
 By PCA, we project all the data points $x$ onto $W$ to get a set of $z$ of lower dimensions, while we want to find the $W$ to let the variance of $z$ be as large as possible.
 
@@ -110,7 +110,22 @@ After transformation by $W$, the covariance matrix $Cov(z)$ is a diagonal matrix
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/pca-decorrelation.png" alt="pca decorrelation" style="width:450px;"/>
 </p>
 
-#### minimize reproduction error (looks like neural network with 1 hidden layer)
+#### Minimizing Reconstruction Error
+
+We can also see PCA as finding a set of representations that minimizing the reconstruction error between $x - \overline{x}$ and the reconstructed $\hat{x}$, i.e.
+
+$$x - \overline{x} \approx c_1 u^1 + c_2 u^2 + \dots + c_k u^k = \hat{x}$$
+
+and the reconstruction error
+
+$$ \vert \vert ((x - \overline{x}) - \hat{x}) \vert \vert_2$$
+
+and by **singiular value decomposition**, the k eigen vector with the largest eigen value of the covariance matrix $Cov(x)$ is the solution, i.e. the $ \{ w^1, w^2, \dots, w^k \}$ from PCA is the set of component of $ \{ u^1, u^2, \dots, u^k \} $ that minimize the reconstruction error.
+
+
+(looks like neural network with 1 hidden layer)
+
+
 
 gradient gets different w's due to not orthogonal
 
@@ -147,6 +162,8 @@ why PCA w's 不像圖案的組成要素 / non-negative matrix factorization
 ## References
 
 More about PCA: Bishop Chap.12
+
+Proof of minimizing reconstruction error = mazimize z varriance, see Bishop 12.1.2
 
 [Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
 

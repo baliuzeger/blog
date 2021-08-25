@@ -94,13 +94,15 @@ $$w^n = arg \max \limits_{w^n} Var(z_n)$$
 
 $$Var(z_n) = \frac{1}{N}\sum_{z_n}(z_n - \overline{z}_n)^2$$
 
-where $Var(z_1)$ is the largest, and then $Var(z_2)$ then to $Var(z_n)$, repectively.
+where $Var(z_1)$ is the largest, $Var(z_2)$ the 2nd largest, then $Var(z_n)$ the nth largest, repectively.
 
 **Solution**
 
 $w^1$ to $w^n$ are the **eigen vectors** of the covariance matrix $Cov(x)$, with eigen value from the largest to nth largest, where
 
 $$Cov(x) = \frac{1}{N} \sum (x - \overline{x})(x - \overline{x})^T$$
+
+decorrelation?
 
 #### minimize reproduction error (looks like neural network with 1 hidden layer)
 

@@ -41,15 +41,25 @@ Choosw a level in the tree and separate the tree into clusters by that level.
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/HAC.png" alt="HAC" style="width:500px;"/>
 </p>
 
-
 ### More of My Discussions to Clustering
 
 Aren't there any clustering methods based on low density separation assumption or smoothness assumption? Unsupervised SVM for the former? DBSCAN for the later?
 
 ## Distributed Representaion / Dimension Reduction
 
+Transform the high-dimensional examples into low-dimensional representatils by using their attribute or characteristics.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/dimension-reduction.png" alt="dimension reduction" style="width:450px;"/>
+</p>
 
 ### Feature Selection
+
+Manually choose the dimensions of features that emphasizes the differences between the data points.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/feature-selection.png" alt="HAC" style="width:250px;"/>
+</p>
 
 ### Principal Component Analysis
 

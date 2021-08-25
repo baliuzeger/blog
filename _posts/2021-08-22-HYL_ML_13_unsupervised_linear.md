@@ -9,9 +9,15 @@ Unsupervised learning are the scenarios that we only have either input or output
 
 ## Clustering
 
-"How many cluster" is still an open question.
+"How many cluster" is still an open question; we have to decide it.
 
 ### K-Means
+
+To cluster $X = \{ x^1, \dots, x^N \}$ into $K$ clusters.
+
+Steps:
+
+![k-means steps](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_13/k-means.png)
 
 ### Hierarchical Agglomerative Clustering
 

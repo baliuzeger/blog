@@ -57,19 +57,27 @@ or predicting the context given a word as the skip-gram model.
 
 ![skip-gram](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/skip-gram.png)
 
+### Semantic Meanings of the Vectors
 
+As high dimensional vectors, word embedding can handle the complex relationships between the words. Moreover, we can find semantic meanings in the arithmetic of the vectors, e.g.
 
-
-
-As high dimensional vectors, word embedding can handle the complex relationships between the words.
+![semantics](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/semantic.png)
  
-Word embedding can represent the complex relationships between words.
+### Multi-Lingual / Multi-Domain Embedding
+
+
+
 
 ### Discussion
 
 Word embedding cannot be fulfilled by autoencoder. Reason: if we only have the 1-of-N encoded words as input and output, then the autoencoder can't find any meaningful representations.
 
-If the 1st hidden layer don't sum the word vectors as 1 vector but keep the word vectors independently for processing of the later layers, would it better handles the sequential relationships of the words?
+The neural network for generating the word vector has only 1 hidden layer, it's not deep. By Tomas Mikalov, who proposed the word vector, the reasons are:
+1. There are many important tricks.
+2. The earlier works can't complete the training of the NN due to lack of computing power.
+3. He want to show that such task can be fulfilled by non-deep neural networks.
+
+(My conjecture) If the 1st hidden layer don't sum the word vectors as 1 vector but keep the word vectors independently for processing of the later layers, would it better handles the sequential relationships of the words?
 
 
 ## References

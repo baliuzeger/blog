@@ -65,7 +65,11 @@ As high dimensional vectors, word embedding can handle the complex relationships
  
 ### Multi-Lingual / Multi-Domain Embedding
 
+We can make embedding for difference sources first, and then train a function to transform vectors from one source to tje vectors from another. Finally, we can use the result to perform translation between languages or mapping images to words. By such approaches, we can even handle data of classees that we've never had.
 
+![multi-lingual embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/multi-lingual.png)
+
+![multi-domain embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/multi-domain.png)
 
 
 ### Discussion

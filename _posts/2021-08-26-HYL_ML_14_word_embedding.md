@@ -62,15 +62,6 @@ or predicting the context given a word as the skip-gram model.
 As high dimensional vectors, word embedding can handle the complex relationships between the words. Moreover, we can find semantic meanings in the arithmetic of the vectors, e.g.
 
 ![semantics](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/semantic.png)
- 
-### Multi-Lingual / Multi-Domain Embedding
-
-We can make embedding for difference sources first, and then train a function to transform vectors from one source to tje vectors from another. Finally, we can use the result to perform translation between languages or mapping images to words. By such approaches, we can even handle data of classees that we've never had.
-
-![multi-lingual embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/multi-lingual.png)
-
-![multi-domain embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/multi-domain.png)
-
 
 ### Discussion
 
@@ -83,6 +74,25 @@ The neural network for generating the word vector has only 1 hidden layer, it's 
 
 (My conjecture) If the 1st hidden layer don't sum the word vectors as 1 vector but keep the word vectors independently for processing of the later layers, would it better handles the sequential relationships of the words?
 
+## Multi-Lingual / Multi-Domain Embedding
+
+We can make embedding for difference sources first, and then train a function to transform vectors from one source to tje vectors from another. Finally, we can use the result to perform translation between languages or mapping images to words. By such approaches, we can even handle data of classees that we've never had.
+
+![multi-lingual embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/multi-lingual.png)
+
+![multi-domain embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/multi-domain.png)
+
+## Document Embedding
+
+By document embedding, we transform word sequences with different lengths to vectors with the same length, while the vectors represent the meaning of the word sequences. For example, the bag-of-world approach
+
+![bag-of-word](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/bag-of-word.png)
+
+while in the bag-of-world approach, the order of the words is not considered, and the meaning of sentences can be completely different by different order. There are more approaches:
+
+![beyond-bag-of-word](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/beyond-bag-of-word.png)
+
+paragraph vector, seq2seq, skip through are unsupervised, and the others have some usage of labelled data.
 
 ## References
 

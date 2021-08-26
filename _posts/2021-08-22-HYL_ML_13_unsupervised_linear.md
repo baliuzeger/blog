@@ -13,7 +13,7 @@ Unsupervised learning are the scenarios that we only have either input or output
 
 ### K-Means
 
-To cluster $X = \{ x^1, \dots, x^N \}$ into $K$ clusters.
+To cluster $X = \{ x^1, \dots, x^N \}$ into $K$ clusters by their mean.
 
 Steps:
 

@@ -93,6 +93,10 @@ In conclusion, theoretically, gradient descent can get the local minimum only wh
 ![limitations of gradient descent](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_03/limitations.png)
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 3-1: Gradient Descent](https://www.youtube.com/watch?v=yKKNr-QKz2Q&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=6)
+
+[Youtube ML Lecture 3-2: Gradient Descent (Demo by AOE)](https://www.youtube.com/watch?v=1_HBTJyWgNA&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=7)
+
+[Youtube ML Lecture 3-3: Gradient Descent (Demo by Minecraft)](https://www.youtube.com/watch?v=wzPAInDF_gI&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=8)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

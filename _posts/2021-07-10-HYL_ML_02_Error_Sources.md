@@ -81,7 +81,7 @@ N-fold cross validation:
  ![trade off](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_02/n_fold.png)
  
 ## Reference
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube Link ML Lecture 2: Where does the error come from?](https://www.youtube.com/watch?v=D_S6y0Jm6dQ&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=5)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
 

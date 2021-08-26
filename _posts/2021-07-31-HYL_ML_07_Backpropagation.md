@@ -48,6 +48,6 @@ The concepts of forward and backward pass can be illustrated as
 ![pass forward and backward](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_07/forwand-and-backward.png)
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 7: Backpropagation](https://www.youtube.com/watch?v=ibJpTrp5mcE&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=12)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

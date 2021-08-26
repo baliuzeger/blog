@@ -24,6 +24,6 @@ Deep learning can also perform end-to-end learning, i.e. let the deep neural net
 By the effect of modularization, the deep neural networks actually use less parameters and need less training data. Therefore, the comment "deep learning simply take advantage of the high number of parameters to realize overfitting, it's just a kind of brute force solution based on computing power and big data" is incorrect, because deep learning actually need less parameters and less data. The comment "deep learning is just neural networks + big data" is partially incorrect. The reason of incorrectness is like above. The correct part is that some tasks are just too complex that they do need big data, *even deep learning is already very efficient for data*.
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 11: Why Deep?](https://www.youtube.com/watch?v=XsC9byQkUH8&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=20)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

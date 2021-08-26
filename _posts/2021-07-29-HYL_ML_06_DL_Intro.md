@@ -60,6 +60,6 @@ When the network is deeper, there are more parameters, i.e. larger function set,
 In the later lectures, we'll see why we choose "deep" but not "fat" neural networks.
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 6: Brief Introduction of Deep Learning](https://www.youtube.com/watch?v=Dr-WRlEFefw&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=11)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

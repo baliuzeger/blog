@@ -106,7 +106,7 @@ for such examples, we can perform **feature transformation** 1st and then use lo
 however, it's not always easy for us to find how to perform the feature transformation effectively. If we choose the cascaded logistic regression as the model and train it, we are actually using the **neural network**.
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 5: Logistic Regression](https://www.youtube.com/watch?v=hSXFuypLukA&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=10)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
 

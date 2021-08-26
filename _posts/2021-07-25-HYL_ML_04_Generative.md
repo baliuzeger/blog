@@ -117,6 +117,6 @@ then it's not logistic regression.
 Choose whatever the distribution you like, e.g. for binary features, it may be reasonable to choose Bernoulli distribution. Or if we assume all dimensions are independent, then it becomes the Naive Bayes classifier.
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 4: Classification](https://www.youtube.com/watch?v=fZAZUYEeIMg&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=9)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

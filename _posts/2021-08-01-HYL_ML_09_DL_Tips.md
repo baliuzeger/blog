@@ -166,6 +166,9 @@ On the other hand, the mini-batch sizes have to be big enough so that we can ben
 ![mini-batch](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_09/mini-batch.png)
 
 ## References
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube ML Lecture 9-1: Tips for Training DNN](https://www.youtube.com/watch?v=xki61j7z-30&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=16)
+
+For "Mini-Batch Size, Training Speed & GPU"
+[Youtube ML Lecture 8-1: “Hello world” of deep learning](https://www.youtube.com/watch?v=Lx3l4lOrquw&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=13)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

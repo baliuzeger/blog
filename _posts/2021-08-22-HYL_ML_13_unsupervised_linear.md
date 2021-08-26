@@ -204,7 +204,7 @@ Proof of minimizing reconstruction error = mazimize z varriance, see Bishop 12.1
 
 [Singular Value Decomposion](http://speech.ee.ntu.edu.tw/~tlkagk/courses/LA_2016/Lecture/SVD.pdf)
 
-[Youtube Link](https://www.youtube.com/watch?v=iwh5o_M4BNU&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=23)
+[Youtube ML Lecture 13: Unsupervised Learning - Linear Methods](https://www.youtube.com/watch?v=iwh5o_M4BNU&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=22)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)
 

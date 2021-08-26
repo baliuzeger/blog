@@ -47,6 +47,8 @@ We don't have to perform regulatization on biases because it's not related to sm
 Over more testing data, the average error should be higher. Such concepts are related to validation.
 
 ## Reference
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube Link ML Lecture 1: Regression - Case Study](https://www.youtube.com/watch?v=fegAeph9UaA&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=3)
+
+[Youtube Link ML Lecture 1: Regression - Demo](https://www.youtube.com/watch?v=1UqCjFQiiy0&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=4)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

@@ -50,6 +50,8 @@ Labeling enough data may be labor-consuming or difficult, sometimes we want to a
 ![learning_map](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_00/learning_map.png)
 
 ## Reference
-[Youtube Link](https://youtube.com/playlist?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+[Youtube Link ML Lecture 0-1: Introduction of Machine Learning](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=1)
+
+[Youtube Link ML Lecture 0-2: Why we need to learn machine learning?](https://www.youtube.com/watch?v=On1N8u1z2Ng&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=2)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

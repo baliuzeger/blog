@@ -168,7 +168,8 @@ On the other hand, the mini-batch sizes have to be big enough so that we can ben
 ## References
 [Youtube ML Lecture 9-1: Tips for Training DNN](https://www.youtube.com/watch?v=xki61j7z-30&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=16)
 
-For "Mini-Batch Size, Training Speed & GPU"
+For **Mini-Batch Size, Training Speed & GPU**
+
 [Youtube ML Lecture 8-1: “Hello world” of deep learning](https://www.youtube.com/watch?v=Lx3l4lOrquw&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=13)
 
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

@@ -5,7 +5,7 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture 14: Word Embedding"
 
 ## Approaches to Represent Words
 
-### 1-of-N Embedding
+### 1-of-N Encoding
 
 The total number of dimensions is the total number of words. The only 1 dimension with value 1 represent the corresponding word. By such approach, every word is independent and we can't find the relationship between words.
 
@@ -23,8 +23,53 @@ Clustering the words. Since the relationships between the words are complex, so 
 
 ## Word Embedding
 
-dimension reduction from 1-of-N to high dimensional word vectors
+Performing dimension reduction to project 1-of-N encoding to high dimensional word vectors (whose dimensions are lower than the original 1-of-N encoding).
 
+Generating word vectors is *unsupervised*. We use 1-of-N encoded words as input to generate their word embedding vectors, and the training data is a lot of text. Here we only have input data.
+
+### Generating the Word Vectors
+
+We assume that a word can be understood by its context. Machine learns the meaning of words from reading a lot of documents without supervision.
+
+#### Count Based
+
+If two words $w_i$ and $w_j$ frequently co-occur, $V(w_i)$ and $V(w_j)$ would be close to each other. e.g. [Glove Vector](http://nlp.stanford.edu/projects/glove/). Such approach is similar to LSA or matrix factorization.
+
+![count based](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/count-based.png)
+
+#### Preduction Based
+
+Use some nearby words as input to produce the probability distribution of words at a position. After training, take the input at the 1st hidden layer as the word vector for the input word, i.e. the $z$ in the figure.
+
+![word embedding NN](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/word-embedding-NN.png)
+
+We can use the previous n words to predict a word,
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/pre-context.png" alt="pre-context" style="width:350px;"/>
+</p>
+
+predicting the word given its context, i.e. use some previous and later words to predict a word, as the continuous bag of word (CBOW) model,
+
+![CBOW](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/CBOW.png)
+
+or predicting the context given a word as the skip-gram model.
+
+![skip-gram](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_14/skip-gram.png)
+
+
+
+
+
+As high dimensional vectors, word embedding can handle the complex relationships between the words.
+ 
+Word embedding can represent the complex relationships between words.
+
+### Discussion
+
+Word embedding cannot be fulfilled by autoencoder. Reason: if we only have the 1-of-N encoded words as input and output, then the autoencoder can't find any meaningful representations.
+
+If the 1st hidden layer don't sum the word vectors as 1 vector but keep the word vectors independently for processing of the later layers, would it better handles the sequential relationships of the words?
 
 
 ## References

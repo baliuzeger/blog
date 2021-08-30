@@ -58,6 +58,7 @@ The solution is the eigenvectors of the **graph laplacian**.
 
 Also, **Spectral clustering** is peforming Laplacian Eigenmaps and then performing clustering.
 
+When adding new examples, it should be ok to compute $z$s for only the new examples, so laplacian eiganmaps can be used for the training / testing scenarios.
 
 ### T-distribution Stochastic Neighboring Embedding
 

@@ -24,7 +24,14 @@ $$ \sum_{i} \vert \vert z^i - \sum_j w_{ij} z^j \vert \vert _2 $$
 
 so that we can keep $w_{ij}$ unchanged in the new space.
 
-![LLE](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/LLE.png)
+![LLE points](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/LLE-points.png)
+
+Besides, choosing the number of neighbors is important. By too many neighbors, some of them may be too far to keep the localness so their $w_{ij}$s become meaningless. (I guess) By too few neighbors, the $w_{ij}$s cannot properly describe the relationships between examples.
+
+![LLE neighbor counts](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/LLE-neighbor-counts.png)
+
+
+
 
 ok for adding new data?
 

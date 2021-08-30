@@ -54,6 +54,8 @@ then $z^1$ and $z2$ will be close to each other if $x1$ and $x2$ are close in a 
 
 $$ \text{If the dim of } z \text{ is M, } Span \{ z^1, z^2, \dots, z^n \} = R^M $$
 
+The solution is the eigenvectors of the **graph laplacian**.
+
 Also, **Spectral clustering** is peforming Laplacian Eigenmaps and then performing clustering.
 
 

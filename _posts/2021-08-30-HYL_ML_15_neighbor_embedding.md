@@ -30,11 +30,9 @@ Besides, choosing the number of neighbors is important. By too many neighbors, s
 
 ![LLE neighbor counts](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/LLE-neighbor-counts.png)
 
+One advantage of LLE is that, even we don't have $x$s, we can find $z$s if we have $x$s' relationships $w_{ij}$.
 
-
-
-ok for adding new data?
-
+Since LLE only cares about the neighbors of an example, when adding new data, it should be reasonable to compute only the $z$s without re-computing $z$s of the whole data set.
 
 ### T-distribution Stochastic Neighboring Embedding
 

@@ -10,7 +10,7 @@ In some data set, it may be meaningless to compute the Euclidean distance direct
     <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/manifold-example.png" alt="manifold example" style="width:350px;"/>
 </p>
 
-### Locally LInear Embedding
+## Locally Linear Embedding
 
 「在天願做比翼鳥 在地願為連理枝」
 
@@ -34,7 +34,7 @@ One advantage of LLE is that, even we don't have $x$s, we can find $z$s if we ha
 
 Since LLE only cares about the neighbors of an example, when adding new data, it should be reasonable to compute only the $z$s without re-computing $z$s of the whole data set.
 
-### Laplacian Eigenmaps
+## Laplacian Eigenmaps
 
 We use distance defined by graph approximate the distance on manifold.
 
@@ -54,13 +54,19 @@ then $z^1$ and $z2$ will be close to each other if $x1$ and $x2$ are close in a 
 
 $$ \text{If the dim of } z \text{ is M, } Span \{ z^1, z^2, \dots, z^n \} = R^M $$
 
-The solution is the eigenvectors of the **graph laplacian**.
+The solution is the eigenvectors of the **graph Laplacian**.
 
 Also, **Spectral clustering** is peforming Laplacian Eigenmaps and then performing clustering.
 
-When adding new examples, it should be ok to compute $z$s for only the new examples, so laplacian eiganmaps can be used for the training / testing scenarios.
+When adding new examples, it should be ok to compute $z$s for only the new examples, so Laplacian eiganmaps can be used for the training / testing scenarios.
 
-### T-distribution Stochastic Neighboring Embedding
+## The Problem of Aggregating Clusters
+
+Both LLE and Laplacian eiganmaps have the problem that the non-similar data may also aggregate together because only the relationships between the similar examples are defined. T-SNE can fix this problem.
+
+![aggregating problem](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/aggregating-problem.png)
+
+## T-distribution Stochastic Neighboring Embedding
 
 By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.
 

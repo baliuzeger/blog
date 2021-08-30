@@ -76,6 +76,10 @@ then compute similarity between all pairs of $z: S(z^i,z^j)$, then calculate
 
 $$ P(z^j | z^i) = \frac{S(z^i, z^j)}{\sum_{k \neq i} S(z^i, z^k)} $$
 
+then find a set of z to minimize the KL entropy
+
+$$ L = \sum_{i} KL(P(*|x^i)||Q(*|z^i)) \\
+ = \sum_{i,j} P(x^j | x^i)log \frac{P(x^j | x^i)}{Q(z^j|z^i)}$$
 
 
 

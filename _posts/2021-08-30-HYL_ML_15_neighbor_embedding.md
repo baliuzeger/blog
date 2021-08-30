@@ -89,7 +89,9 @@ in T-SNE,
 
 $S'(z^i,z^j) = \frac{1}{1 + ||z^i - z^j||_2}$
 
-with the 
+with the T-distribution, the distance in the space of $x$ will be enlarged in the space of $x$.
+
+![S' distributions and distances](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/TSNE-distances.png)
 
 By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.
 

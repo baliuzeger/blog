@@ -72,6 +72,11 @@ Compute similarity between all pairs of $x: S(x^i,x^j)$, then calculate
 
 $$ P(x^j \vert x^i) = \frac{S(x^i, x^j)}{\sum_{k \neq i} S(x^i, x^k)} $$
 
+then compute similarity between all pairs of $z: S(z^i,z^j)$, then calculate
+
+$$ P(z^j | z^i) = \frac{S(z^i, z^j)}{\sum_{k \neq i} S(z^i, z^k)} $$
+
+
 
 
 By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.

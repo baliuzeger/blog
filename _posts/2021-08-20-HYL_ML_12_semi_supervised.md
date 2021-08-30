@@ -195,6 +195,8 @@ $$S = \sum_{i \neq j}(1 - y^i \cdot y^j) w_{ij} $$
 
 where $y^i$ is a vector of the probability distribution, i.e. softmax output, to all the classes of example $i$. The inner product is the total probability that example $i$ and $j$ are in the same class, so the whole term is the weight times the probability that $i$ and $j$ are not in the same class.
 
+Further discussion: By such definition of the smoothness, it seems that such definition lets all the unlabelled examples have a probability of 1 to a class and a probability 0 to the other classes, so there are no probability distributions anymore. I'm not sure whether such result is good and I should check it with some references.
+
 ## Better Representation
 
 去蕪存菁，化繁為簡。

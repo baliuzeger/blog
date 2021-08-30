@@ -33,3 +33,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 13 Unsupervised Learning: Linear Methods](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_13_unsupervised_linear/)
 
 [Lecture 14 Word Embedding](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_14_word_embedding/)
+
+[Lecture 15 Neighbor Embedding](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_15_neighbor_embedding)

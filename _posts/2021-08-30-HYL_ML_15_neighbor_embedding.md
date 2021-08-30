@@ -34,8 +34,27 @@ One advantage of LLE is that, even we don't have $x$s, we can find $z$s if we ha
 
 Since LLE only cares about the neighbors of an example, when adding new data, it should be reasonable to compute only the $z$s without re-computing $z$s of the whole data set.
 
-### Laplacian Eigen Maps
+### Laplacian Eigenmaps
 
+We use distance defined by graph approximate the distance on manifold.
+
+![Laplacian eigenmap graph concept](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/LE-graph.png)
+
+First, we connect the graph and then calculate the similarity
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/LE-similarity.png" alt="Laplacian Eigenmaps similarity" style="width:300px;"/>
+</p>
+
+then in the new space of $z$, we find $z$s to minimize
+
+$$ S = \frac{1}{2} \sum_{i,j} w_{i,j} \vert \vert z^i - z^j \vert \vert _2 $$
+
+then $z^1$ and $z2$ will be close to each other if $x1$ and $x2$ are close in a high density region. To avoid the trivial solution that all $z = 0$, we make a further constraint
+
+$$ \text{If the dim of } z \text{ is M, } Span \{ z^1, z^2, \dots, z^n \} = R^M $$
+
+Also, **Spectral clustering** is peforming Laplacian Eigenmaps and then performing clustering.
 
 
 ### T-distribution Stochastic Neighboring Embedding

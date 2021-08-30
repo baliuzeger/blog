@@ -81,7 +81,15 @@ then find a set of z to minimize the KL entropy
 $$ L = \sum_{i} KL(P(*|x^i)||Q(*|z^i)) \\
  = \sum_{i,j} P(x^j | x^i)log \frac{P(x^j | x^i)}{Q(z^j|z^i)}$$
 
-where $S(x^i,x^j) = exp(- \vert \vert x^i - x^j \vert \vert _2)$. For $S' $
+where $S(x^i,x^j) = exp(- \vert \vert x^i - x^j \vert \vert _2)$. For $S'(z^i,z^j)$, in SNE
+
+$$S'(z^i,z^j) = exp(- \vert \vert z^i - z^j \vert \vert _2)$$
+
+in T-SNE,
+
+$S'(z^i,z^j) = \frac{1}{1 + ||z^i - z^j||_2}$
+
+with the 
 
 By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.
 

@@ -6,8 +6,16 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture 15: Neighbor Embedding"
 
 In some data set, it may be meaningless to compute the Euclidean distance directly, especially when the distance between examples are not small. Therefore, in such cases, if we want to perform dimension reduction, it has to be **non-linear**. Such dimension reduction may benefits for further clustering or supervised learning.
 
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/manifold-example.png" alt="manifold example" style="width:350px;"/>
+</p>
 
 ### Locally LInear Embedding
+
+
+
+
+ok for adding new data?
 
 
 ### T-distribution Stochastic Neighboring Embedding

@@ -12,6 +12,13 @@ In some data set, it may be meaningless to compute the Euclidean distance direct
 
 ### Locally LInear Embedding
 
+In the original space of $x$, we find $w_{ij}$ for all the examples $x^i$, where $w_{ij}$ represents the relation between $x^i$ and its neighboring points $x^j$s, and $w_{ij}$ miimize
+
+$$ \sum_{i} \vert \vert x^i - \sum_j w_{ij} x^j \vert \vert _2 $$
+
+then we find the dimension reduction results $z^i$ and $z^j$ by minimizing
+
+$$  $$
 
 
 

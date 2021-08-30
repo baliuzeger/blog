@@ -72,16 +72,16 @@ Compute similarity between all pairs of $x: S(x^i,x^j)$, then calculate
 
 $$ P(x^j \vert x^i) = \frac{S(x^i, x^j)}{\sum_{k \neq i} S(x^i, x^k)} $$
 
-then compute similarity between all pairs of $z: S(z^i,z^j)$, then calculate
+then compute similarity between all pairs of $z: S'(z^i,z^j)$, then calculate
 
-$$ P(z^j | z^i) = \frac{S(z^i, z^j)}{\sum_{k \neq i} S(z^i, z^k)} $$
+$$ P(z^j | z^i) = \frac{S'(z^i, z^j)}{\sum_{k \neq i} S'(z^i, z^k)} $$
 
 then find a set of z to minimize the KL entropy
 
 $$ L = \sum_{i} KL(P(*|x^i)||Q(*|z^i)) \\
  = \sum_{i,j} P(x^j | x^i)log \frac{P(x^j | x^i)}{Q(z^j|z^i)}$$
 
-
+where $S(x^i,x^j) = exp(- \vert \vert x^i - x^j \vert \vert _2)$. For $S' $
 
 By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.
 

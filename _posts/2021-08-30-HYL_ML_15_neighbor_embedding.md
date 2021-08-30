@@ -93,6 +93,8 @@ with the T-distribution, the distance in the space of $x$ will be enlarged in th
 
 ![S' distributions and distances](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_15/TSNE-distances.png)
 
+T-SNE can provide very good visualization. In practical scenarios, we often use simple PCA first to reduce the dimensionality once and then use T-SNE to reduce computing cost.
+
 By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.
 
 My question for adding new data with T-SNE: why not compute only the newly generated probabilities? It seems that we can do it, so it should be not so problematic for computing cost when adding new data. By doing so, the transofrmation of the old examples effect those of the new examples significantly, so we should still re-compute the transformation for the whole old and new data if the amount of the new data is not relatively small to the old.

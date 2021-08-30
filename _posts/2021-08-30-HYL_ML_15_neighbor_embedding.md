@@ -34,9 +34,15 @@ One advantage of LLE is that, even we don't have $x$s, we can find $z$s if we ha
 
 Since LLE only cares about the neighbors of an example, when adding new data, it should be reasonable to compute only the $z$s without re-computing $z$s of the whole data set.
 
+### Laplacian Eigen Maps
+
+
+
 ### T-distribution Stochastic Neighboring Embedding
 
-By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing. (My question: why not compute only the newly generated probabilities? It seems that we can do it, so it should be not so problematic for computing cost when adding new data. By doing so, the transofrmation of the old examples effect those of the new examples significantly, so we should still re-compute the transformation for the whole old and new data if the amount of the new data is not relatively small to the old.)
+By T-SNE, we have to calculate the KL-divergence for the whole data set, so we have to re-compute the whole transformation once we want to include more data. Therefore, T-SNE is not suitable for the scenarios of training and testing.
+
+My question for adding new data with T-SNE: why not compute only the newly generated probabilities? It seems that we can do it, so it should be not so problematic for computing cost when adding new data. By doing so, the transofrmation of the old examples effect those of the new examples significantly, so we should still re-compute the transformation for the whole old and new data if the amount of the new data is not relatively small to the old.
 
 
 ## References

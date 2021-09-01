@@ -69,8 +69,9 @@ Deconvolution is actually convolution with padding on the pre-layer of the decon
 
 ![deconvolution](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/deconvolution.png)
 
-
 ## Use Auto-Encoder to Pre-Train DNN
+
+
 
 ## References
 

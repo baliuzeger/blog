@@ -11,6 +11,8 @@ Comparing to principal component analysis, the auto-encoder's training is like m
 
 ![PCA as auto-encoder](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/PCA-auto-encoder.png)
 
+Besides, for supervised learning, we always lack of (labelled) data; for un-supervised learning, we never lack of (unlabelled) data. That's also why the auto-encoders are powerful.
+
 ## Deep Auto-Encoder
 
 Of course, the auto-encoder can be deep, so it's deep auto-encoder.
@@ -71,7 +73,15 @@ Deconvolution is actually convolution with padding on the pre-layer of the decon
 
 ## Use Auto-Encoder to Pre-Train DNN
 
+## De-Noise Auto-Encoder
 
+## More
+
+Constrictive Auto-Encoder
+
+Restrictive Boltzmann Machine
+
+Deep Belief Network
 
 ## References
 

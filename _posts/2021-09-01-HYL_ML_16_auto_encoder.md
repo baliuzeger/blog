@@ -73,6 +73,10 @@ Deconvolution is actually convolution with padding on the pre-layer of the decon
 
 ## Use Auto-Encoder to Pre-Train DNN
 
+To improve the training of deep neural networs, we can use auto-encoder for pre-training. First, we build anduse auto-encoders to train the hidden layers layer-by-layer. When training a hidden layer, we should fix the weights of all the other layers they we've already build. After pre-training all the hidden layers, we then train the whole network normally, i.e. the **fine-tune**.
+
+![pre-train](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/pre-train.png)
+
 ## De-Noise Auto-Encoder
 
 ## More

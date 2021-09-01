@@ -3,8 +3,6 @@ layout: post
 title: "Notes for Prof. Hung-Yi Lee's ML Lecture 16: Auto-Encoder"
 ---
 
-## Auto-Encoder
-
 By the concept of auro-encoder, we train an NN encoder and an NN decoder simultzneously. The encoder is a function that generate a code by the input, and the decoder is a function that generate an output by a code. To train them, we cascade the decoder after the decoder, and train the cascaded neural network to reproduce outputs that are as close as the inputs.
 
 ![auto-encoder](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/auto-encoder.png)
@@ -13,7 +11,7 @@ Comparing to principal component analysis, the auto-encoder's training is like m
 
 ![PCA as auto-encoder](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/PCA-auto-encoder.png)
 
-### Deep Auto-Encoder
+## Deep Auto-Encoder
 
 Of course, the auto-encoder can be deep, so it's deep auto-encoder.
 
@@ -26,6 +24,7 @@ It's not necessary to make the weights in the encoder and the decoder be symmetr
 By making the auto-encoder deep, the generated code can seperate the different classes of the examples, although without supervised learning.
 
 ![deep auto-encoder separate classes](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/deep-auto-encoder-separate.png)
+
 
 
 ## References

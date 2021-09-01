@@ -43,7 +43,7 @@ If we further train an auto-encoder by the bag-of-word vectors of the documents,
 
 ![auto-encoder text-retrieval](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/auto-encoder-text-retrieval.png)
 
-
+Similarly, for image search, if we perform the search directly by the vector of the pixels, we cannot find images with objects that are semantically similar. If we use the code of auto-encoders to perform the search, we can have better results.
 
 ## Auto-Encoder for CNN
 

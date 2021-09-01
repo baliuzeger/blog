@@ -124,7 +124,7 @@ and we can see the weights decay by updaes.
 
 ### L1 Regularization
 
-$$L'(\theta) = L(\theta) + \lambda \frac{1}{2} \vert \vert \theta \vert \vert_2$$
+$$L'(\theta) = L(\theta) + \lambda \vert \vert \theta \vert \vert_1$$
 
 where the L1 norm $\vert \vert \theta \vert \vert_1 = \sum_j\vert w_j \vert$. Then we update the $w$ by
 

@@ -83,13 +83,27 @@ Beware that if the size of the layer that we are performing pre-training is larg
 
 ## More
 
-### De-Noise Auto-Encoder
+#### De-Noise Auto-Encoder
 
-Constrictive Auto-Encoder
+Add noise on the inputs, while use the original clean input as outputs for training the auto-encoder.
 
-Restrictive Boltzmann Machine
+![de-noise auto encoder](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/de-noise.png)
 
-Deep Belief Network
+#### Constrictive Auto-Encoder
+
+Let the code be insensitive to purterbations to the inputs
+
+Ref: Rifai, Salah, et al. "Contractive auto-encoders: Explicit invariance during feature extraction.“ Proceedings of the 28th International Conference on Machine Learning (ICML-11). 2011.
+
+#### Graph Co-Models
+
+They are not neural networks!
+
+**Restrictive Boltzmann Machine**: can be used for dimension redunction.
+
+Or also, **Deep Belief Network**.
+
+Please the references in the slides.
 
 ## References
 

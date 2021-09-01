@@ -25,7 +25,29 @@ By making the auto-encoder deep, the generated code can seperate the different c
 
 ![deep auto-encoder separate classes](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/deep-auto-encoder-separate.png)
 
+## Text-Retrieval and Image Search
 
+For text-retrieval, by the vector space model, we transform documents and also the query into vectors, and then we retrieve the documents by their similarities to the vector of the query.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/document-vector-space.png" alt="document vector space" style="width:350px;"/>
+</p>
+
+However, by only the bag-of-word model, the semantics are not considered.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/bag-of-words.png" alt="bag-of-word" style="width:350px;"/>
+</p>
+
+If we further train an auto-encoder by the bag-of-word vectors of the documents, we can get good reslults for text-retrieval.
+
+![auto-encoder text-retrieval](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/auto-encoder-text-retrieval.png)
+
+
+
+## Auto-Encoder for CNN
+
+## Use Auto-Encoder to Pre-Train DNN
 
 ## References
 

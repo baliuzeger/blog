@@ -47,6 +47,25 @@ Similarly, for image search, if we perform the search directly by the vector of 
 
 ## Auto-Encoder for CNN
 
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/cnn-auto-encoder.png" alt="cnn auto-encoder" style="width:450px;"/>
+</p>
+
+### Unpooling
+
+For unpooling, i.e. reverse the pooling, considering max pooling for example here, we perform the steps:
+1. Keep the **max location maps** at the pooling layers in the encoder.
+2. At the unpooling layer in the decoder, copy the pre-layer values to the recorded locations of the max location maps and set the values of all the other locations as 0.
+
+Or as an alternitive, we can simply repeat the values to the enlarged map at the unpooling layers, like in Keras.
+
+<p align="center">
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/unpooling.png" alt="unpooling" style="width:450px;"/>
+</p>
+
+
+### Deconvolution
+
 ## Use Auto-Encoder to Pre-Train DNN
 
 ## References

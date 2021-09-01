@@ -77,9 +77,13 @@ To improve the training of deep neural networs, we can use auto-encoder for pre-
 
 ![pre-train](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/pre-train.png)
 
-## De-Noise Auto-Encoder
+Today, ususally we don't need pre-training. In the case that we have many unlabelled data, pre-training can still be helpful.
+
+Beware that if the size of the layer that we are performing pre-training is larger that the size of its input, the training may be ineffective, i.e. it must learn to be something like identity matrix. In such cases, we can apply some strong regularization. e.g. L1 regularization, to ensure that the trained weights are going to be sparse.
 
 ## More
+
+### De-Noise Auto-Encoder
 
 Constrictive Auto-Encoder
 

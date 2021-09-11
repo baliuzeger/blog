@@ -45,6 +45,16 @@ When designing the training of encoders and discriminators, always design the ta
 
 ### Feature Disentangle
 
+We may want the different dimensions of the embeddings represent the information of differnet aspect. Take audio for example,
+
+![audio disentangle](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_more_auto_encoder/audio-desentangle.png)
+
+By such disentangle, we can perform voice conversion by using the embedding of phonetic information of a data and the embeddings of speaker information of another data
+
+![audio conversion](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_more_auto_encoder/voice-conversion.png)
+
+To achieve it, we make tricks on the architecture to let different parts of the embedding hvae only global or non-global information.
+
 ### Discrete Representation
 
 ### Sequence as Embedding

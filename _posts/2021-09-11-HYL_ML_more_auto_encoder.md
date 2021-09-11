@@ -13,7 +13,7 @@ We build an encoder that generate a code by an input object, while this time we 
 
 $$L_D^* = \min\limits_{\phi} L_D$$
 
-and for the encoder, the lower the $L_D^*$, the better the representations, so we train $\theta$ to find the minimum of $L_D^*$, then
+and for the encoder, the lower the $ L_D^* $, the better the representations, so we train $ \theta $ to find the minimum of $ L_D^* $, then
 
 $$ \theta^* = arg \min\limits_{\theta} L_D^* \\
 =  arg \min\limits_{\theta} \min\limits_{\phi} L_D $$

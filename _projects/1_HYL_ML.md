@@ -37,3 +37,7 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 15 Neighbor Embedding](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_15_neighbor_embedding)
 
 [Lecture 16 Auto-Encoder](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_16_auto_encoder)
+
+[More about Auto-Encoder](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_more_auto_encoder/)
+
+

@@ -57,6 +57,8 @@ To achieve it, we make tricks on the architecture to let different parts of the 
 
 ### Discrete Representation
 
+
+
 ### Sequence as Embedding
 
 ## References
@@ -70,3 +72,7 @@ To achieve it, we make tricks on the architecture to let different parts of the 
 [Youtube More about Auto-encoder (4/4)](https://www.youtube.com/watch?v=DRLsw4CshqU&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4&index=51)
 
 [Course website](https://speech.ee.ntu.edu.tw/~hylee/ml/2020-spring.html)
+
+[How to train network with non-differentiable layers](https://arxiv.org/pdf/16 11.01144.pdf)
+
+Or simply use reinforcement learning: loss funcion as reward, network as agent.

@@ -37,6 +37,10 @@ For sequential data, there's **skip thought** to generate the embeddings for the
 
 The classifier actually computes the inner product of the embeddings to recognize the next sentence. With the random sentences, the encoder has to let the embedding of the unrelated sentences be far from each other. If we simply design the task to let the embedding of the next sentence be close to the embedding of the current, the encoder may trivially transform every sentences to identical embedding.
 
+Similarly, for ausio, there's **Contrastive Predictive Coding**.
+
+#### Caution for designing the tasks
+
 When designing the training of encoders and discriminators, always design the task to make sure the encoder won't succeed by making trivial transformations.
 
 ## More interpretable embedding

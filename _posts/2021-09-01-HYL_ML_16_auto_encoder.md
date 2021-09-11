@@ -109,6 +109,4 @@ Please the references in the slides.
 
 [Youtube ML Lecture 16: Unsupervised Learning - Auto-encoder](https://www.youtube.com/watch?v=Tk5B4seA-AU&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=25)
 
-[](https://www.youtube.com/watch?v=6ZWu4L7XOiQ)
-
 [Course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html)

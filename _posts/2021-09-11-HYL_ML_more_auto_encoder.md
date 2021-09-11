@@ -77,7 +77,7 @@ For speech, the codebook represents phonetic or semantic information.[reference]
 
 Let the embedding be human-redable texts. This is a **seq2seq2seq** auto-encoder. Besides, since both the encoder and the encoder are machines, the code sequence may still be some texts which are unreadable for human, so we have to simultaneously train a discriminator that take the code sequence and another sequence written by human as input and recognize which one is written by human.
 
-![seq2seq2seq](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_more_auto_encoder/VQVAE.png)
+![seq2seq2seq](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_more_auto_encoder/seq2seq2seq.png)
 
 Similarly, we can also make trees as embedding.[ref1](https://arxiv.org/abs/1806.07832) [ref2](https://arxiv.org/abs/1904.03746)
 

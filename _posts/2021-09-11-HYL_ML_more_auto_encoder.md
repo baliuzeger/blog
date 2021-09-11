@@ -20,6 +20,10 @@ $$ \theta^* = arg \min\limits_{\theta} L_D^* \\
 
 we train the encoder and the discriminator simultaneously to minimize $L_D$. This is the **Deep InfoMax** (DIM).
 
+Besides, we can see the typical auto-encoder as a special case of the encoder-discriminator approach. We can simply use the reconstruction error of the typical aotu-encoder as a score for the discriminator.
+
+The encoder-discriminator approach also has some advantages. We don't train an decoder, that saves computing cost. On the other hand, we have more data for the discriminator, i.e. we have both positive (the code comes from the object) and negative (the code doesn't come from the object) examples. While for typical auto-encoder, we have only positive examples.
+
 
 ## More interpretable embedding
 

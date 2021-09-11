@@ -81,6 +81,12 @@ Let the embedding be human-redable texts. This is a **seq2seq2seq** auto-encoder
 
 Similarly, we can also make trees as embedding. [ref1](https://arxiv.org/abs/1806.07832) [ref2](https://arxiv.org/abs/1904.03746)
 
+## How to train network with non-differentiable layers
+
+[ref](https://arxiv.org/pdf/16 11.01144.pdf)
+
+Or simply use reinforcement learning: loss funcion as reward, network as agent.
+
 ## References
 
 [Youtube More about Auto-encoder (1/4)](https://www.youtube.com/watch?v=6ZWu4L7XOiQ&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4&index=48)
@@ -93,6 +99,3 @@ Similarly, we can also make trees as embedding. [ref1](https://arxiv.org/abs/180
 
 [Course website](https://speech.ee.ntu.edu.tw/~hylee/ml/2020-spring.html)
 
-[How to train network with non-differentiable layers](https://arxiv.org/pdf/16 11.01144.pdf)
-
-Or simply use reinforcement learning: loss funcion as reward, network as agent.

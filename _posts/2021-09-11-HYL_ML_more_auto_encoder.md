@@ -57,7 +57,21 @@ To achieve it, we make tricks on the architecture to let different parts of the 
 
 ### Discrete Representation
 
+We may want the representation so that it's easier to understand its meaning or just let it automatically be clustered.
 
+One approach is to add a one-hot or binary layer right after generation of the code.
+
+![discrete representation](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_more_auto_encoder/discrete-representation.png)
+
+Binary representation may be better than the one-hot representation. The binary representation can represent the same total number of classes as the one-hot representation with less dimensions. Using the binary representation, it's also possible to let the decoder generate instances that doesn't exist in the training examplesby combinations of the bits.
+
+#### VQVAE
+
+Train a codebook simultaneously. We use the code in the codebook that is closest to the output of the encoder as the input to the decoder.
+
+![VQVAE](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_more_auto_encoder/VQVAE.png)
+
+For speech, the codebook represents phonetic or semantic information.[reference](https://arxiv.org/pdf/1901.08810.pdf)
 
 ### Sequence as Embedding
 

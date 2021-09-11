@@ -11,9 +11,14 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture: More about Auto-Encoder"
 
 We build an encoder that generate a code by an input object, while this time we build a discriminator that take an input object and a code as its input, and recognize whether the code comes from the object. The encoder has parameters $\theta$ and the discriminator has parameters $\phi$. Let the loss of the diecriminator be $L_D$, then for the discriminator, we train $\phi$ to find the minimum of $L_D^*$, i.e.
 
-$$L_D^* = arg \min\limits_{\phi} L_D$$
+$$L_D^* = \min\limits_{\phi} L_D$$
 
+and for the encoder, the lower the $L_D^*$, the better the representations, so we train $\theta$ to find the minimum of $L_D^*$, then
 
+$$ \theta^* = arg \min\limits_{\theta} L_D^* \\
+=  arg \min\limits_{\theta} \min\limits_{\phi} L_D $$
+
+we train the encoder and the discriminator simultaneously to minimize $L_D$. This is the **Deep InfoMax** (DIM).
 
 
 ## More interpretable embedding

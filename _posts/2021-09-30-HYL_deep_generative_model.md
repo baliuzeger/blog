@@ -21,9 +21,25 @@ Usually, we don't get good results by simply using a decoder trained by an auto-
 
 ![VAE](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_17/VAE.png)
 
-We can tune 2 dimensions of the code and fix all the other dimensions to see the function of each dimension, and then control the generation of images fo the known functions of the simensions of the codes. Take the pokemon generation as example,
+#### Intuitive explanation of the concept of VAE
+
+We force the generator to re-generate the input object within a range of deviation of the code, so that when a code is near the boundary between to examples, to minimize the error, it should be like a mixture of the neighboring exmples.
+
+#### Usage
+
+We can tune 2 dimensions of the code and fix all the other dimensions to see the function of each dimension, and then control the generation of images fo the known functions of the dimensions of the codes. Take the pokemon generation as example,
 
 ![pokemon generation](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_17/pokemon_gen.png)
+
+#### Discussion
+
+The VAE does not really try to simulate real objects; it just try to produce objects that are close to the examples. In other words, VAE may just memorize the existing examples, instead of generating new objects.
+
+![VAE problem](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_17/VAE-problem.png)
+
+### Conditional VAE
+
+Given an example and a class, it can generate an object of the class with the style of the example. [ref](https://arxiv.org/pdf/1406.5298v2.pdf)
 
 ## Generative Adversarial Network
 

@@ -45,6 +45,18 @@ We have labelled source data and unlabelled target data. We want to make a netwo
 
 ![domain adversarial training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/domain-adversarial.png)
 
+## Zero-Shot Training
+
+We have labelled source data and unlabelled target data. We make a table that map the classes to attributes. Then we train a network by the source data to produce attributes from the inputs. Finally, we use the trained network to generate attributes for the target data to perform classification.
+
+![by-attribute-training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/by-attribute-training.png)
+
+![by-attribute-testing](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/by-attribute-testing.png)
+
+
+
+### Attribute Embedding
+
 
 
 ## My discussions

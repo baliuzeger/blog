@@ -41,3 +41,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [More about Auto-Encoder](https://baliuzeger.github.io/sjl/blog/2021/HYL_ML_more_auto_encoder/)
 
 [Lecture 17 & 18 Deep Generative Model](https://baliuzeger.github.io/sjl/blog/2021/HYL_deep_generative_model/)
+
+[Lecture 19: Transfer Learning](https://baliuzeger.github.io/sjl/blog/2021/HYL_transfer_learning/)

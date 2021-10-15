@@ -28,6 +28,16 @@ Which layers to be transfered dependes on the task. For example, for image recog
 
 ![layer-transfer](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/layer-transfer.png)
 
+## Multi-Task Learning
+
+We let multiple networks share some layers.
+
+![multi-task learning](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/multi-task.png)
+
+To let the network learn which layers to be shared, there's Progressive Neural Networks.
+
+![progressive NN](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/progressive.png)
+
 ## My discussions
 
 transfer learning vs semi-supervised learning

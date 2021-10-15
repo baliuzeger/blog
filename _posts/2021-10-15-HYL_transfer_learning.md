@@ -9,7 +9,6 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture: Transfer Learning"
 
 ![categories](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/overview.png)
 
-
 ## Model Fine-Tuning
 
 We have a large amount of source data and very little target data, both are labbelled. We train the a model by the source data first and then re-train it by the target data. The challenge is that we have only limited target data, so be careful about overfitting. We have the following methods:
@@ -30,6 +29,8 @@ Which layers to be transfered dependes on the task. For example, for image recog
 
 ## Multi-Task Learning
 
+We have a labelled source data and target data. We want the network to have better performance by the source data.
+
 We let multiple networks share some layers.
 
 ![multi-task learning](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/multi-task.png)
@@ -37,6 +38,14 @@ We let multiple networks share some layers.
 To let the network learn which layers to be shared, there's Progressive Neural Networks.
 
 ![progressive NN](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/progressive.png)
+
+## Domain-Adversarial Training
+
+We have labelled source data and unlabelled target data. We want to make a network that can classify the target data. We make a network that are composed of a feature extractor, a label predictor, and a domain classifier. The label predictor maximize the label classification accuracy on the source data; the domain classifier maximize domain (i.e. source or target data) classification accuracy; the feature maximize the label classification accuracy and minimize the domain classification accuracy. As a consequence, the feature extractor will remove the domain related information at its output to fool the domain classifier. The training can be realized by a gradient reversal from the domain extractor to the feature extractor.
+
+![domain adversarial training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/domain-adversarial.png)
+
+
 
 ## My discussions
 

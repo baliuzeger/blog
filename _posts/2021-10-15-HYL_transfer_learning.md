@@ -10,6 +10,16 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture: Transfer Learning"
 ![categories](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/overview.png)
 
 
+## Model Fine-Tuning
+
+We have a large amount of source data and very little target data, both are labbelled. We train the a model by the source data first and then re-train it by the target data. The challenge is that we have only limited target data, so be careful about overfitting.
+
+### Conservertive Learning
+
+Make constraints, i.e. regulatizations, to let some parts of the re-trained model to be close to the pre-trained model.
+
+![conservative training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/conservative.png)
+
 ## My discussions
 
 transfer learning vs semi-supervised learning

@@ -45,9 +45,13 @@ We have labelled source data and unlabelled target data. We want to make a netwo
 
 ![domain adversarial training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/domain-adversarial.png)
 
-## Zero-Shot Training
+## Zero-Shot Learning
 
-We have labelled source data and unlabelled target data. We make a table that map the classes to attributes. Then we train a network by the source data to produce attributes from the inputs. Finally, we use the trained network to generate attributes for the target data to perform classification.
+We have labelled source data and unlabelled target data. The target data is unlabelled, so it's "zero-shot".
+
+### Train by Attributes
+
+We make a table that map the classes to attributes. Then we train a network by the source data to produce attributes from the inputs. Finally, we use the trained network to generate attributes for the target data to perform classification.
 
 ![by-attribute-training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/by-attribute-training.png)
 
@@ -63,12 +67,15 @@ To avoid finding trivial solutions for the network, we should optimize the $f$ a
 
 $$ f^*,g^* = arg \min\limits_{f,g}\sum_{n} max (0, k - f(x^n) \cdot g(y^n) + \max\limits_{m \neq n} f(x^n) \cdot g(y^m)) $$
 
+### Convex Combination of Semantic Embedding
+
+Find an off-the-shelf NN classifier, let it classify a target data, use the probabilities of the output classes on the corresponding word vectors to produce a new vector, and use the closest word as the result.
+
+![convex combination](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/convex-combination.png)
 
 ## My discussions
 
-transfer learning vs semi-supervised learning
-
-
+The difference between transfer learning and semi-supervised learning: in semi-supervised learning, we assume all data are related to the task.
 
 ## References
 

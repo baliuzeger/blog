@@ -53,10 +53,15 @@ We have labelled source data and unlabelled target data. We make a table that ma
 
 ![by-attribute-testing](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/by-attribute-testing.png)
 
-
-
 ### Attribute Embedding
 
+We train functions $f$ and $g$ to transform the original data and the attributes into a high-dimensional space and that those from the same pair be close to each other. If we don't have the attributes data, we can just use word embedding. Finally, we can apply the functions on the target data and let the closest class be the result of classification.
+
+![attribute-embedding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/attribute-embedding.png)
+
+To avoid finding trivial solutions for the network, we should optimize the $f$ and $g$ by the loss function:
+
+$$ f^*,g^* = arg \min\limits_{f,g}\sum_{n} max (0, k - f(x^n) \cdot g(y^n) + \max\limits_{m \neq n} f(x^n) \cdot g(y^m)) $$
 
 
 ## My discussions

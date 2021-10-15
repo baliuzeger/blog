@@ -12,7 +12,7 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture: Transfer Learning"
 
 ## Model Fine-Tuning
 
-We have a large amount of source data and very little target data, both are labbelled. We train the a model by the source data first and then re-train it by the target data. The challenge is that we have only limited target data, so be careful about overfitting.
+We have a large amount of source data and very little target data, both are labbelled. We train the a model by the source data first and then re-train it by the target data. The challenge is that we have only limited target data, so be careful about overfitting. We have the following methods:
 
 ### Conservertive Learning
 
@@ -20,9 +20,18 @@ Make constraints, i.e. regulatizations, to let some parts of the re-trained mode
 
 ![conservative training](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/conservative.png)
 
+### Layer Transfer
+
+When training by the target data, we copy some layers of the pre-trained network, while the others are randomly initialized. If we have very limited data, then we fix the transfered layers and train only the others; if we have sufficient data, then we fine-tune the whole network.
+
+Which layers to be transfered dependes on the task. For example, for image recognition, usually we fine-tune the last layers because the former layers are for extracting pattenrs fram the images; for speech recognition, ususally we fine-tune the first layers because the parameters for extracting patterns varies to fit the unique vocal mechanisms of individuals.
+
+![layer-transfer](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_19/layer-transfer.png)
+
 ## My discussions
 
 transfer learning vs semi-supervised learning
+
 
 
 ## References

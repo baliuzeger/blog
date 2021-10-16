@@ -5,7 +5,7 @@ title: "Notes for Prof. Hung-Yi Lee's ML Lecture 1, Regression"
 
 ## Notations
 
-$x^n$: vector if input # n. The superscript indicates the # of object.
+$x^n$: vector of input # n. The superscript indicates the # of object.
 
 $x^n_i$: feature # i of input # n. The subscript indicates the # of feature/component.
 

@@ -22,7 +22,7 @@ and then maximize the likelihood by
 $$w^*, b^* = arg \max\limits_{w, b}L(w, b) = arg \min\limits_{w, b} -lnL(w,b)$$
 
 $$-lnL(w, b) = - \sum_{n}[\hat{y}^n ln f_{w,b}(x^n)+ (1 - \hat{y}^n) ln(1 - f_{w,b}(x^n))] \\
-= \sum_{n} C(f(x^n), \hat{y}^n)$$
+= \sum_{n} C( \hat{y}^n, f(x^n) )$$
 
 where C is **cross entropy**.
 

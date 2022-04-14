@@ -47,3 +47,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 20: Support Vector Machine](https://baliuzeger.github.io/sjl/blog/2021/HYL_SVM/)
 
 [Lecture 21: RNN](https://baliuzeger.github.io/sjl/blog/2022/HYL_ML_21_RNN/)
+
+[Lecture 22: Ensemble](https://baliuzeger.github.io/sjl/blog/2022/HYL_ML_22_ensemble)

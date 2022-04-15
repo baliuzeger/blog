@@ -33,6 +33,20 @@ $$ L(f) = \sum_n l(f(x^n), \hat{y}^n) \to L(f) = \sum_n \mu_n l(f(x^n), \hat{y}^
 
 By boosting, the classifiers are learned **sequentially**. Not like bagging, where the classifiers can be learned independently.
 
+### Adaboost
+
+Idea: to train $f_{n}(x)$ on the new training set that fails $f_{n-1}(x)$.
+
+![adaboost-algo1](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_22_ensemble/adaboost-algo1.png)
+
+![adaboost-algo2](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_22_ensemble/adaboost-algo2.png)
+
+### General Formulation of Boosting
+
+![general-boosting](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_22_ensemble/general-boosting.png)
+
+Finding the $f_t(x)$s is *gradient boostint*. Adaboost is the gradient boosting with exponential loss function.
+
 ## References
 
 [Youtube ML Lecture 22: Ensemble](https://youtu.be/tH9FH1DH5n0)

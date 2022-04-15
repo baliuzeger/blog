@@ -47,6 +47,12 @@ Idea: to train $f_{n}(x)$ on the new training set that fails $f_{n-1}(x)$.
 
 Finding the $f_t(x)$s is *gradient boostint*. Adaboost is the gradient boosting with exponential loss function.
 
+## Stacking
+
+To train a simple (e.g. logistic regression) final classifier for the trained classifiers for a final decision. By training such further classifier rather than simple voting, we can handle the cases that some of the trained classifiers may be very poor.
+
+![stacking](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_22_ensemble/stacking.png)
+
 ## References
 
 [Youtube ML Lecture 22: Ensemble](https://youtu.be/tH9FH1DH5n0)

@@ -67,7 +67,7 @@ Or as an alternitive, we can simply repeat the values to the enlarged map at the
 
 ### Deconvolution
 
-Deconvolution is actually convolution with padding on the pre-layer of the deconcolution layer and revers the index of the filter matrix at every dimension.
+Deconvolution is actually convolution with padding on the pre-layer of the deconcolution layer and reverse the index of the filter matrix at every dimension.
 
 ![deconvolution](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_16/deconvolution.png)
 

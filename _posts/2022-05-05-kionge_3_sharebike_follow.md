@@ -47,5 +47,39 @@ beware the `values.reshape(len(df_tgt),1)`. For the output is only 1 dimensional
 ![09_train-test-fn-1](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/09_train-test-fn-1.png)
 ![09_train-test-fn-1](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/09_train-test-fn-1.png)
 
+#### Train & Test
+
+**Cycle 1**
+![10_train-cycle1](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/10_train-cycle1-1.png)
+![10_train-cycle1](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/10_train-cycle1-2.png)
+on train data, looks not good enough; 1 nore cycle.
+
+**Cycle 2**
+![11_train-cycle2-1](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/11_train-cycle2-1.png)
+![11_train-cycle2-2](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/11_train-cycle2-2.png)
+looks similar to cycle 1 on train data. check test data.
+![11_train-cycle2-3](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/11_train-cycle2-3.png)
+![11_train-cycle2-4](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/11_train-cycle2-4.png)
+![11_train-cycle2-5](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/11_train-cycle2-5.png)
+fair performance.
+
+**Cycle 3**, train more epoches.
+![12_train-cycle3-1](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/12_train-cycle3-1.png)
+![12_train-cycle3-2](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/12_train-cycle3-2.png)
+performance on train data looks similar as before.
+![12_train-cycle3-3](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/12_train-cycle3-3.png)
+![12_train-cycle3-4](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/12_train-cycle3-4.png)
+also similar on test data.
+
+
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
 ![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
 ![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)

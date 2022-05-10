@@ -28,7 +28,7 @@ include the binary features into the dataframe of input.
 normalize the quantitative data.
 ![05_quantitative](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/05_quantitative-1.png)
 
-add then into the input & target dataframe.
+add them into the input & target dataframe.
 ![05_quantitative](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/05_quantitative-2.png)
 ![05_quantitative](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/05_quantitative-3.png)
 
@@ -71,15 +71,3 @@ performance on train data looks similar as before.
 ![12_train-cycle3-4](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/12_train-cycle3-4.png)
 also similar on test data.
 
-
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/kionge_ch3_bicycle/.png)

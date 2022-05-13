@@ -28,7 +28,7 @@ Using ReLU indeed solve the discreteness problem. When using ReLU, using unnorma
 
 ## A more practical predictor: Use the 6-hour-ago data to perform prediction
 
-As a practical application, using the data at the current moment to make predictions is unreal. We should we the past data to make presictions for now.
+As a practical application, using the data at the current moment to make predictions is unreal. We should use the data in the past to make presictions for now.
 
 [notebook](https://github.com/baliuzeger/kiong-e-PyTorch/blob/master/capital_bike_share/ch3-predictor-practical.ipynb)
 

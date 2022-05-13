@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chap 3: Capital Share Bikeshare Predictor"
+title: "Chap 3: Capital Share Bikeshare Predictor: Follow the Book"
 ---
 
 ### Import

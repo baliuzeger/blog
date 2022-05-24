@@ -8,3 +8,7 @@ The curse of dimensionality refers to various phenomena that arise when analyzin
 In machine learning, the curse of dimensionality is used interchangeably with the *peaking phenomenon* / *Hughes phenomenon*: with a fixed number of training samples, the average (expected) predictive power of a classifier or regressor first increases as the number of dimensions or features used is increased but beyond a certain dimensionality it starts deteriorating instead of improving steadily.
 
 In data mining, the curse of dimensionality refers to a data set with too many features. When exploring the correlation between the features and the results, the total number of combinations grows factorially as the number of features in the data set grows.
+
+## Reference
+
+[The curse of dimensionality Wiki](https://en.wikipedia.org/wiki/Curse_of_dimensionality)

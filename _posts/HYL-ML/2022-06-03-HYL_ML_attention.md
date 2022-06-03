@@ -70,13 +70,7 @@ learnable receptive field. Self attention is a larger function set that contains
 
 ### Self-Attention vs RNN
 
-
-
-
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
-
-
-### Self-Attention vs CNN
+In general, self-attention outperforms RNN because RNN is limited by its memoery capacity over long sequences, while self-attention can attend to every position in the sequence parallelly.
 
 ## References
 

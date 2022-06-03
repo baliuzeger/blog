@@ -3,13 +3,13 @@ layout: post
 title: "Notes for Prof. Hung-Yi Lee's ML Lecture: Self-Attention"
 ---
 
-## Overview
+## Self-Attention
 
 With a vector sequence as input, self-attention can produce a sequence of vectors (or scalars) of the same length. The produced vectors can then be fed into feedforward networks or further self-attention layers. Conceptually, the production of every vector takes into account the whole input sequence, evaluate some parts as more relevant and let the relevant ones contribute more.
 
 ![overview](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/overview.png)
 
-## Operations
+### Operations
 
 For a sequence of $n_i$ vectors as input, for every vector $a_{i}$, we calculate the relevance $\alpha_{j}$ to every vector $a_j$. We also produce a *value* vector $v_j$ for every vector $a_j$. Then we calculate a weighted sum over $v_j$'s by $\alpha_{j}$'s as the output $b_i$ for vector $a_i$. After calculating $b_i$'s for all the input vectors, we operations of a self-attention layer is done.
 
@@ -38,8 +38,15 @@ Dimensions of the vectors and matrices:
 - $v$: $n_b$ dimensions.
 - $W^v$: $n_{b} \times n_{a}$ dimensions.
 
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
+### Operations as Matrices Computation
+
+The operations over individual $a_i$'s to produce $b_i$'s can be composed as matrices computations:
+
+![matrices-ope](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/matrices-ope.png)
+![matrix-summary](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/matrix-summary.png)
+
+
+
 ![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
 
 ## References

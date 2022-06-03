@@ -45,8 +45,19 @@ The operations over individual $a_i$'s to produce $b_i$'s can be composed as mat
 ![matrices-ope](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/matrices-ope.png)
 ![matrix-summary](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/matrix-summary.png)
 
+## Multi-Head Self-Attention
+
+We may need more than a single attention mechanisms at a time, i.e. different type of relevances.
+
+For multi-head attention, we multiply $q_i$'s, $k_i$'s and $v_i$'s byt additional matrices $W^{q,t}$, $W^{k,t}$, $W^{v,t}$ to produce $q^t_i$'s, $k^t_i$'s and $v^t_i$'s to get $b^t_i$'s. We then concatenate the $b^t_i$'s and multiply it by $W^o$ to get the final output $b_i$.
+
+![multi-head](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/multi-head.png)
+
+## Positional Encoding
 
 
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
 ![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
 
 ## Comparing with other Networks
@@ -57,8 +68,8 @@ The operations over individual $a_i$'s to produce $b_i$'s can be composed as mat
 
 ## References
 
-[【機器學習2021】自注意力機制 (Self-attention) (上)](https://youtu.be/hYdO9CscNes)
+[Youtube: 【機器學習2021】自注意力機制 (Self-attention) (上)](https://youtu.be/hYdO9CscNes)
 
-[【機器學習2021】自注意力機制 (Self-attention) (下)](https://youtu.be/gmsMY5kc-zw)
+[Youtube: 【機器學習2021】自注意力機制 (Self-attention) (下)](https://youtu.be/gmsMY5kc-zw)
 
 [Course Website](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php)

@@ -59,13 +59,22 @@ By the procedures explained so far, the information of positions are not include
 
 ![positional-encoding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/positional-encoding.png)
 
-
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
-
 ## Comparing with other Networks
 
+### Self-Attention vs CNN
+
+CNN is self-attention that can only attend in a receptive field. Self-attention is CNN with
+learnable receptive field. Self attention is a larger function set that contains CNN. Therefore, with fewer data, CNN may outperform self-attention due to less overfitting; with more data, self-attention may outperform CNN by stronger fitting power.
+
+![self-attention_vs_cnn](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/self-attention_vs_cnn.png)
+
 ### Self-Attention vs RNN
+
+
+
+
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
+
 
 ### Self-Attention vs CNN
 

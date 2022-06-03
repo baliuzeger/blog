@@ -9,6 +9,12 @@ With a vector sequence as input, self-attention can produce a sequence of vector
 
 ![overview](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/overview.png)
 
+## Operation
+
+For a sequence of $n_i$ vectors of $n_a$ dimentions as input, for every vector $a_{i}$, we calculate the relevance $\alpha_{ij}$ to every vector $j$. We also produce a *value vector* $v_j$ for every vector $a_j$. Then we calculate a weighted sum over $v_j$'s by $\alpha_{ij}$'s as the output $b_i$ for vector $a_i$. After calculating $a_i$'s for all the input vectors, we operations of a self-attention layer is done.
+
+### Calculating the Relevance $\alpha$
+
 
 
 ## References

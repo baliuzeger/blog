@@ -51,3 +51,5 @@ I collects the notes I made for [Prof. Hung-Yi Lee's youtube ML Lectures](https:
 [Lecture 22: Ensemble](https://baliuzeger.github.io/sjl/blog/2022/HYL_ML_22_ensemble)
 
 [Lecture 23: Reinforcement Learning](https://baliuzeger.github.io/sjl/blog/2022/HYL_ML_23_RL)
+
+[Self-Attention](https://baliuzeger.github.io/sjl/blog/2022/HYL_ML_attention)

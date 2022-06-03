@@ -49,6 +49,12 @@ The operations over individual $a_i$'s to produce $b_i$'s can be composed as mat
 
 ![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
 
+## Comparing with other Networks
+
+### Self-Attention vs RNN
+
+### Self-Attention vs CNN
+
 ## References
 
 [【機器學習2021】自注意力機制 (Self-attention) (上)](https://youtu.be/hYdO9CscNes)

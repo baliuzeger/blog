@@ -49,7 +49,7 @@ The operations over individual $a_i$'s to produce $b_i$'s can be composed as mat
 
 We may need more than a single attention mechanisms at a time, i.e. different type of relevances.
 
-For multi-head attention, we multiply $q_i$'s, $k_i$'s and $v_i$'s byt additional matrices $W^{q,t}$, $W^{k,t}$, $W^{v,t}$ to produce $q^t_i$'s, $k^t_i$'s and $v^t_i$'s to get $b^t_i$'s. We then concatenate the $b^t_i$'s and multiply it by $W^o$ to get the final output $b_i$.
+For multi-head attention, we multiply $q_i$'s, $k_i$'s and $v_i$'s by additional matrices $W^{q,t}$, $W^{k,t}$, $W^{v,t}$ to produce $q^t_i$'s, $k^t_i$'s and $v^t_i$'s to get $b^t_i$'s. We then concatenate the $b^t_i$'s and multiply it by $W^o$ to get the final output $b_i$.
 
 ![multi-head](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/multi-head.png)
 

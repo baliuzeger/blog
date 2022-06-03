@@ -55,8 +55,11 @@ For multi-head attention, we multiply $q_i$'s, $k_i$'s and $v_i$'s byt additiona
 
 ## Positional Encoding
 
+By the procedures explained so far, the information of positions are not included. To take into account them, we add a vector $e_i$ to every $a_i$ with respect to its position. Which kind of encoding is better is still an open question.
 
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
+![positional-encoding](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/positional-encoding.png)
+
+
 ![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
 ![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_attention/.png)
 

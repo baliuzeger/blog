@@ -64,12 +64,16 @@ Since the encoder has multiple layers, the cross-attention is not limited to the
 
 ### Teacher Forcing
 
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+Since the original transformer is *autoregressive*, when producing an output token, we feed a token into the decoder. In training, although the decoder may produce a wrong token in the previous step, we still feed the correct token into the decoder at the next step. This is *teacher forcing*.
 
+![teacher-forcing](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/teacher-forcing.png)
 
 ### Scheduled Sampling
+
+
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+
 
 ## Further Discussions
 

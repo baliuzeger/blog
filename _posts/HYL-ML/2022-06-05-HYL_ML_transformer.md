@@ -10,7 +10,7 @@ For sequence-to-sequence (seq2seq) tasks, the machine has to take a variable len
 A transformer is composed of an *encoder* and a *decoder*. The encoder produces a sequence of vectors whose  length is the same as the input sequence. The decoder produces the output sequence from the encoded sdquence.
 
 <p align="center">
-    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/transformer-structure.png" alt="transformer-structure" style="width:45a0px;"/>
+    <img src="https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/transformer-structure.png" alt="transformer-structure" style="width:450px;"/>
 </p>
 
 ## Encoder
@@ -48,19 +48,26 @@ The original transformer is *autoregressive*. The autoregressive decoder works b
 
 For a *non-autoregressive* decoder, all the tokens of the output sequence are produced simultaneously. To decide the output length, we can either train another predictor to predict the output length or let the decoder output a very long sequence and ignore tokens after "end". The NAT decoders have some advantages. By the NAT decoders, all the outputs tokens are computed parallelly. The generation by NAT decoders is more stable in some tasks, e.g. text-to-speech (TTS). However, usually the performance of AT decoders are better than the NAT decoders. *Multi-modality* may be a cause. ([To learn more.](https://youtu.be/jvyKmU4OM3c))
 
-### Masked Attention
+### Masked Self-Attention
 
 Consider a case that the decoder produces a sequence of length N in the end. When generating the ith token, the masked self-attention layer only sees i inputs because the i+1 to Nth tokens are not yet fed to it. As a result, we call it "masked" self-attention.
 
-### Cross Attention
+### Cross-Attention
 
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+For cross attention, the *query* is from the decoder's cross-attention module, and we evaluate the attention scores of the output vectors of the encoder to the query, and then calculate a final *value* vector from the attention scores and the *value* vectorsfrom the output vectors of the encoder.
 
+![cross-attention](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/cross-attention.png)
+
+Since the encoder has multiple layers, the cross-attention is not limited to the output of the last layer of the encoder. [There are further variations](https://arxiv.org/abs/2005.08081).
 
 ## Training
 
 ### Teacher Forcing
+
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+
 
 ### Scheduled Sampling
 

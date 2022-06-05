@@ -34,6 +34,8 @@ There are more approaches for the normalization: [On Layer Normalization in the 
 
 ## Decoder
 
+The operations of the decoder are similar to the encoder, except that the decoder use ***masked*** *multi-head attention* in the 1st attention module and *multi-henad* ***cross*** *attention* in the 2nd attention module.
+
 ### Autoregressive (AT) & Non-Autoregressive (NAT)
 
 The original transformer is *autoregressive*. The autoregressive decoder works by the following procedures:
@@ -46,13 +48,15 @@ The original transformer is *autoregressive*. The autoregressive decoder works b
 
 For a *non-autoregressive* decoder, all the tokens of the output sequence are produced simultaneously. To decide the output length, we can either train another predictor to predict the output length or let the decoder output a very long sequence and ignore tokens after "end". The NAT decoders have some advantages. By the NAT decoders, all the outputs tokens are computed parallelly. The generation by NAT decoders is more stable in some tasks, e.g. text-to-speech (TTS). However, usually the performance of AT decoders are better than the NAT decoders. *Multi-modality* may be a cause. ([To learn more.](https://youtu.be/jvyKmU4OM3c))
 
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
-![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
-
-
 ### Masked Attention
 
+Consider a case that the decoder produces a sequence of length N in the end. When generating the ith token, the masked self-attention layer only sees i inputs because the i+1 to Nth tokens are not yet fed to it. As a result, we call it "masked" self-attention.
+
 ### Cross Attention
+
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)
+
 
 ## Training
 

@@ -70,7 +70,7 @@ Since the original transformer is *autoregressive*, when producing an output tok
 
 ### Scheduled Sampling
 
-By teacher forcing, we feed the decoder the correct tokens. However, when enferencing, the decoder may produce incorrect tokens, then the decoder will see incorrect inputs. To deal with such mismatch of training and inferencing, we can sometimes feed the decoder with incorrect tokens. This is *scheduled sampling*. [Original Scheduled Sampling](https://arxiv.org/abs/1506.03099), [Scheduled Sampling for Transformer](https://arxiv.org/abs/1906.07651), [Parallel Scheduled Sampling](https://arxiv.org/abs/1906.04331).
+By teacher forcing, we feed the decoder the correct tokens. However, when enferencing, the decoder may produce incorrect tokens, then the decoder will see incorrect inputs. Such mismatch is *exposure bias*. To deal with exposure bias, we can sometimes feed the decoder with incorrect tokens. This is *scheduled sampling*. [Original Scheduled Sampling](https://arxiv.org/abs/1506.03099), [Scheduled Sampling for Transformer](https://arxiv.org/abs/1906.07651), [Parallel Scheduled Sampling](https://arxiv.org/abs/1906.04331).
 
 ### Evaluating Metrices
 

@@ -28,6 +28,10 @@ The *layer normalization* is to normalize all the features over an example.
 
 ![encoder-procedure](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/encoder-procedure.png)
 
+### On Normalization
+
+There are more approaches for the normalization: [On Layer Normalization in the Transformer Architecture](https://arxiv.org/abs/2002.047 45); [PowerNorm: Rethinking Batch Normalization in Transformers](https://arxiv.org/abs/2003.078 45).
+
 ## Decoder
 
 ![](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_transformer/.png)

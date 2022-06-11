@@ -21,7 +21,7 @@ By batch normalization, we normalize all dimensions of the the hidden-layer vect
 
 ![batch-nor-mean-sigma](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_normalization/batch-nor-mean-sigma.png)
 
-Moreover, since the normalization limit the distributions of the vectors, we furthen introduce parameters $\beta$ and $\gamma$ to allow variations on mean and standard deviation. $\beta$ and $\gamma$ will be trained.
+Moreover, since the normalization limit the distributions of the vectors, we furthen introduce parameters $\beta$ and $\sigma$ to allow variations on mean and standard deviation. $\beta$ and $\sigma$ will be trained.
 
 ![complete-batch-nor](https://baliuzeger.github.io/sjl/assets/images/HYL_ML_normalization/complete-batch-nor.png)
 
